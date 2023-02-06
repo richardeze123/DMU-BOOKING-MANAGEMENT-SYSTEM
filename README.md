@@ -6,7 +6,7 @@ About System:
   
 | Submission | Submission Date | Status |
 | :---         |     :---:      |          ---: |
-| Final report | Friday 6th May | <ul><li>[ ] Completed </li></ul>      |
+| Final report | Friday 5th May | <ul><li>[ ] Completed </li></ul>      |
 | Presentation |     TBA     | <ul><li>[ ] Completed </li></ul>   |
 
 <details>
