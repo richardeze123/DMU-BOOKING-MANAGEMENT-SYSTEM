@@ -8,25 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\P2597140\\.nuget\\packages\\": {},
+    "C:\\Users\\P2602027\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Downloads\\1\\DMUBMS\\DMUBMSClasses\\DMUBMSClasses.csproj",
+      "projectUniqueName": "H:\\Team Dev work 1\\DMUBMS\\DMUBMSClasses\\DMUBMSClasses.csproj",
       "projectName": "DMUBMSClasses",
-      "projectPath": "H:\\Downloads\\1\\DMUBMS\\DMUBMSClasses\\DMUBMSClasses.csproj",
-      "packagesPath": "C:\\Users\\P2597140\\.nuget\\packages\\",
-      "outputPath": "H:\\Downloads\\1\\DMUBMS\\DMUBMSClasses\\obj\\",
+      "projectPath": "H:\\Team Dev work 1\\DMUBMS\\DMUBMSClasses\\DMUBMSClasses.csproj",
+      "packagesPath": "C:\\Users\\P2602027\\.nuget\\packages\\",
+      "outputPath": "H:\\Team Dev work 1\\DMUBMS\\DMUBMSClasses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\P2597140\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\P2602027\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
