@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{160B7BAB-EC5F-4382-8624-41C92E3D0F7B}</ProjectGuid>
+    <ProjectGuid>{F614A33C-098F-4B6F-A632-F705CD67FEF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DMUBMSTesting</RootNamespace>
