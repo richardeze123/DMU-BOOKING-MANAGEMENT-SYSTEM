@@ -69,7 +69,10 @@
   <ItemGroup>
     <Content Include="AnHotel.aspx" />
     <Content Include="car.jpg" />
+    <Content Include="CarLogin.aspx" />
+    <Content Include="CarRegister.aspx" />
     <Content Include="DefaultHotel.aspx" />
+    <Content Include="DeleteCar.aspx" />
     <Content Include="DeleteHotel.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hotel.jpg" />
@@ -86,12 +89,33 @@
     <Compile Include="AnHotel.aspx.designer.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CarLogin.aspx.cs">
+      <DependentUpon>CarLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarLogin.aspx.designer.cs">
+      <DependentUpon>CarLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CarRegister.aspx.cs">
+      <DependentUpon>CarRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarRegister.aspx.designer.cs">
+      <DependentUpon>CarRegister.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DefaultHotel.aspx.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DefaultHotel.aspx.designer.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCar.aspx.cs">
+      <DependentUpon>DeleteCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCar.aspx.designer.cs">
+      <DependentUpon>DeleteCar.aspx</DependentUpon>
     </Compile>
     <Compile Include="DeleteHotel.aspx.cs">
       <DependentUpon>DeleteHotel.aspx</DependentUpon>
