@@ -67,19 +67,59 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnHotel.aspx" />
     <Content Include="car.jpg" />
+    <Content Include="DefaultHotel.aspx" />
+    <Content Include="DeleteHotel.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hotel.jpg" />
+    <Content Include="HotelLogin.aspx" />
+    <Content Include="HotelRegister.aspx" />
     <Content Include="plane.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnHotel.aspx.cs">
+      <DependentUpon>AnHotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnHotel.aspx.designer.cs">
+      <DependentUpon>AnHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultHotel.aspx.cs">
+      <DependentUpon>DefaultHotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultHotel.aspx.designer.cs">
+      <DependentUpon>DefaultHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteHotel.aspx.cs">
+      <DependentUpon>DeleteHotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteHotel.aspx.designer.cs">
+      <DependentUpon>DeleteHotel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotelLogin.aspx.cs">
+      <DependentUpon>HotelLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotelLogin.aspx.designer.cs">
+      <DependentUpon>HotelLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HotelRegister.aspx.cs">
+      <DependentUpon>HotelRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotelRegister.aspx.designer.cs">
+      <DependentUpon>HotelRegister.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
