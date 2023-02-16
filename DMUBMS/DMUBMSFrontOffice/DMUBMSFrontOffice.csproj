@@ -73,7 +73,10 @@
     <Content Include="CarRegister.aspx" />
     <Content Include="DefaultHotel.aspx" />
     <Content Include="DeleteCar.aspx" />
+    <Content Include="DeleteFlight.aspx" />
     <Content Include="DeleteHotel.aspx" />
+    <Content Include="FlightLogin.aspx" />
+    <Content Include="FlightRegister.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hotel.jpg" />
     <Content Include="HotelLogin.aspx" />
@@ -117,12 +120,33 @@
     <Compile Include="DeleteCar.aspx.designer.cs">
       <DependentUpon>DeleteCar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteFlight.aspx.cs">
+      <DependentUpon>DeleteFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteFlight.aspx.designer.cs">
+      <DependentUpon>DeleteFlight.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DeleteHotel.aspx.cs">
       <DependentUpon>DeleteHotel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DeleteHotel.aspx.designer.cs">
       <DependentUpon>DeleteHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlightLogin.aspx.cs">
+      <DependentUpon>FlightLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlightLogin.aspx.designer.cs">
+      <DependentUpon>FlightLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlightRegister.aspx.cs">
+      <DependentUpon>FlightRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlightRegister.aspx.designer.cs">
+      <DependentUpon>FlightRegister.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
