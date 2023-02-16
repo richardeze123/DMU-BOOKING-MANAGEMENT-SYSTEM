@@ -57,15 +57,16 @@
         }
         .auto-style18 {
             position: absolute;
-            top: 403px;
-            left: 596px;
+            top: 405px;
+            left: 594px;
             z-index: 1;
             width: 279px;
             height: 29px;
+            margin-top: 0px;
         }
         .auto-style19 {
             position: absolute;
-            top: 456px;
+            top: 454px;
             left: 594px;
             z-index: 1;
             width: 279px;
@@ -81,11 +82,11 @@
         }
         .auto-style22 {
             position: absolute;
-            top: 571px;
-            left: 393px;
+            top: 544px;
+            left: 383px;
             z-index: 1;
-            width: 58px;
-            height: 22px;
+            width: 503px;
+            height: 100px;
         }
         .auto-style23 {
             position: absolute;
@@ -142,24 +143,24 @@
         <div>
         </div>
         <asp:Panel ID="Panel1" runat="server" BackColor="OrangeRed" CssClass="auto-style1">
-            <asp:Label ID="Label1" runat="server" 
+            <asp:Label ID="lbldmubms" runat="server" 
     CssClass="auto-style12" Text="DMU BOOKING MANAGEMENT SYSTEM" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="Label2" runat="server" CssClass="auto-style13" Font-Bold="True" 
+            <asp:Label ID="lblRegister" runat="server" CssClass="auto-style13" Font-Bold="True" 
                 Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" 
                 Text="Register"></asp:Label>
-            <asp:Label ID="Label7" runat="server" CssClass="auto-style14" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="E-Mail Address"></asp:Label>
-            <asp:Label ID="Label9" runat="server" CssClass="auto-style17" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Password"></asp:Label>
-            <asp:Label ID="Label10" runat="server" CssClass="auto-style27" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Confirm Password"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style18"></asp:TextBox>
-            <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style19"></asp:TextBox>
-            <asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style28"></asp:TextBox>
+            <asp:Label ID="lblEmail" runat="server" CssClass="auto-style14" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="E-Mail Address"></asp:Label>
+            <asp:Label ID="lblPassword1" runat="server" CssClass="auto-style17" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Password"></asp:Label>
+            <asp:Label ID="lblPassword2" runat="server" CssClass="auto-style27" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Confirm Password"></asp:Label>
+            <asp:TextBox ID="txtEMail" runat="server" CssClass="auto-style18"></asp:TextBox>
+            <asp:TextBox ID="txtPassword1" runat="server" CssClass="auto-style19" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="txtPassword2" runat="server" CssClass="auto-style28" TextMode="Password"></asp:TextBox>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:Button ID="Button3" runat="server" CssClass="auto-style26" Font-Size="Large" ForeColor="#666666" Text="Re-Set Password" />
-            <asp:Button ID="Button7" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="View Email" />
-            <asp:Button ID="Button8" runat="server" CssClass="auto-style24" Font-Size="Large" ForeColor="#666666" Text="Done" />
-            <asp:Button ID="Button6" runat="server" CssClass="auto-style23" Font-Size="Large" ForeColor="#666666" Text="Regsiter" />
+            <asp:Button ID="btnReSend" runat="server" CssClass="auto-style26" Font-Size="Large" ForeColor="#666666" Text="Re-Set Password" OnClick="btnReSend_Click" />
+            <asp:Button ID="btnView" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="View Email" OnClick="btnView_Click" />
+            <asp:Button ID="btnDone" runat="server" CssClass="auto-style24" Font-Size="Large" ForeColor="#666666" Text="Done" OnClick="Button8_Click" />
+            <asp:Button ID="btnResgister" runat="server" CssClass="auto-style23" Font-Size="Large" ForeColor="#666666" Text="Regsiter" OnClick="Button6_Click" />
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="OrangeRed" CssClass="auto-style2">
         </asp:Panel>

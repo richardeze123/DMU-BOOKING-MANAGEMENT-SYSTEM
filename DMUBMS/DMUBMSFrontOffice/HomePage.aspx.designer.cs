@@ -33,22 +33,22 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// Label1 control.
+        /// lbldmubms control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lbldmubms;
 
         /// <summary>
-        /// Label2 control.
+        /// lblHomePage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblHomePage;
 
         /// <summary>
         /// Panel2 control.
@@ -141,22 +141,22 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Button2 control.
+        /// btnGo1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnGo1;
 
         /// <summary>
-        /// Button3 control.
+        /// btnGo2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button btnGo2;
 
         /// <summary>
         /// Panel5 control.
@@ -186,12 +186,12 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Button1 control.
+        /// btnGo3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnGo3;
     }
 }

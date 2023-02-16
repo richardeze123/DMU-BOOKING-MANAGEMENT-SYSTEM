@@ -166,11 +166,11 @@
         <div>
         </div>
         <asp:Panel ID="Panel1" runat="server" BackColor="OrangeRed" CssClass="auto-style1">
-            <asp:Label ID="Label1" runat="server" 
+            <asp:Label ID="lbldmubms" runat="server" 
     CssClass="auto-style12" Text="DMU BOOKING MANAGEMENT SYSTEM" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="Label2" runat="server" CssClass="auto-style13" Font-Bold="True" 
+            <asp:Label ID="lblHomePage" runat="server" CssClass="auto-style13" Font-Bold="True" 
                 Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" 
                 Text="Home Page"></asp:Label>
         </asp:Panel>
@@ -198,10 +198,10 @@
                     Font-Names="Arial Unicode MS" Font-Size="X-Large" ForeColor="White" 
                     Text="Hotels"></asp:Label>
             </asp:Panel>
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style18" 
+            <asp:Button ID="btnGo1" runat="server" CssClass="auto-style18" 
                 Font-Bold="True" Font-Italic="False" Font-Names="Akzidenz-Grotesk Pro Bold Ext" 
                 Font-Size="XX-Large" ForeColor="#666666" OnClick="Button2_Click" Text="GO" />
-            <asp:Button ID="Button3" runat="server" CssClass="auto-style19" 
+            <asp:Button ID="btnGo2" runat="server" CssClass="auto-style19" 
                 Font-Bold="True" Font-Names="Akzidenz-Grotesk Pro Bold Ext" 
                 Font-Size="XX-Large" ForeColor="#666666" OnClick="Button3_Click" Text="GO" />
         </asp:Panel>
@@ -213,7 +213,7 @@
                     Text="Flights"></asp:Label>
             </asp:Panel>
         </asp:Panel>
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style17" 
+        <asp:Button ID="btnGo3" runat="server" CssClass="auto-style17" 
             Font-Bold="True" Font-Names="Akzidenz-Grotesk Pro Bold Ext" 
             Font-Size="XX-Large" ForeColor="#666666" OnClick="Button1_Click1" Text="GO" />
     </form>

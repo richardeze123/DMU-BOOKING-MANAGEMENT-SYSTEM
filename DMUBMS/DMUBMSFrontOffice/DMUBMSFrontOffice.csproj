@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActivateAccount.aspx" />
     <Content Include="AnHotel.aspx" />
     <Content Include="car.jpg" />
     <Content Include="ChangePassword.aspx" />
@@ -75,14 +76,23 @@
     <Content Include="DeleteFlight.aspx" />
     <Content Include="DeleteHotel.aspx" />
     <Content Include="DMUBMS.jpg" />
+    <Content Include="EMailViewer.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hotel.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="plane.jpg" />
     <Content Include="Register.aspx" />
+    <Content Include="ReSet.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivateAccount.aspx.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivateAccount.aspx.designer.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AnHotel.aspx.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,6 +135,13 @@
     <Compile Include="DeleteHotel.aspx.designer.cs">
       <DependentUpon>DeleteHotel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EMailViewer.aspx.cs">
+      <DependentUpon>EMailViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EMailViewer.aspx.designer.cs">
+      <DependentUpon>EMailViewer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,6 +164,13 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ReSet.aspx.cs">
+      <DependentUpon>ReSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReSet.aspx.designer.cs">
+      <DependentUpon>ReSet.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -156,6 +180,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMUBMSClasses\DMUBMSClasses.csproj">
+      <Project>{09193AF0-077D-42C4-A475-034288DE2BF4}</Project>
+      <Name>DMUBMSClasses</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

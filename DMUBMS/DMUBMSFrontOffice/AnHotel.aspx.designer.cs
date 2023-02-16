@@ -87,22 +87,22 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// Label5 control.
+        /// lblHotelManagement control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblHotelManagement;
 
         /// <summary>
-        /// Label6 control.
+        /// lblManageHotels control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
+        protected global::System.Web.UI.WebControls.Label lblManageHotels;
 
         /// <summary>
         /// Label10 control.

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChangePassword.aspx.cs" Inherits="DMUBMSFrontOffice.ChangePassword" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReSet.aspx.cs" Inherits="DMUBMSFrontOffice.ReSet" %>
 
 <!DOCTYPE html>
 
@@ -33,10 +33,10 @@
         }
         .auto-style13 {
             position: absolute;
-            top: 88px;
-            left: 422px;
+            top: 86px;
+            left: 376px;
             z-index: 1;
-            width: 213px;
+            width: 208px;
             height: 33px;
         }
         .auto-style14 {
@@ -44,29 +44,13 @@
             top: 406px;
             left: 386px;
             z-index: 1;
-            width: 196px;
+            width: 168px;
             height: 28px;
-        }
-        .auto-style17 {
-            position: absolute;
-            top: 457px;
-            left: 386px;
-            z-index: 1;
-            width: 103px;
-            height: 29px;
         }
         .auto-style18 {
             position: absolute;
             top: 403px;
             left: 596px;
-            z-index: 1;
-            width: 279px;
-            height: 29px;
-        }
-        .auto-style19 {
-            position: absolute;
-            top: 456px;
-            left: 594px;
             z-index: 1;
             width: 279px;
             height: 29px;
@@ -81,43 +65,35 @@
         }
         .auto-style22 {
             position: absolute;
-            top: 549px;
-            left: 388px;
+            top: 453px;
+            left: 386px;
             z-index: 1;
-            width: 411px;
-            height: 102px;
+            width: 523px;
+            height: 167px;
+        }
+        .auto-style24 {
+            position: absolute;
+            top: 665px;
+            left: 626px;
+            z-index: 1;
+            height: 49px;
+            width: 124px;
         }
         .auto-style26 {
             position: absolute;
-            top: 665px;
-            left: 584px;
+            top: 664px;
+            left: 392px;
             z-index: 1;
             height: 49px;
             width: 184px;
         }
-        .auto-style27 {
-            position: absolute;
-            top: 505px;
-            left: 383px;
-            z-index: 1;
-            width: 211px;
-            height: 29px;
-        }
-        .auto-style28 {
-            position: absolute;
-            top: 501px;
-            left: 593px;
-            z-index: 1;
-            width: 279px;
-            height: 29px;
-        }
         .auto-style29 {
             position: absolute;
             top: 663px;
-            left: 817px;
+            left: 806px;
             z-index: 1;
             height: 49px;
-            width: 113px;
+            width: 124px;
         }
     </style>
 </head>
@@ -130,18 +106,15 @@
     CssClass="auto-style12" Text="DMU BOOKING MANAGEMENT SYSTEM" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="lblChangePassword" runat="server" CssClass="auto-style13" Font-Bold="True" 
+            <asp:Label ID="lblReSetPassword" runat="server" CssClass="auto-style13" Font-Bold="True" 
                 Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" 
-                Text="Change Password"></asp:Label>
-            <asp:Label ID="lblCurrentPassword" runat="server" CssClass="auto-style14" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Current Password"></asp:Label>
-            <asp:Label ID="lblPassword1" runat="server" CssClass="auto-style17" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Password"></asp:Label>
-            <asp:Label ID="lblPassword2" runat="server" CssClass="auto-style27" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="Confirm Password"></asp:Label>
-            <asp:TextBox ID="txtCurrentPassword" runat="server" CssClass="auto-style18" TextMode="Password"></asp:TextBox>
-            <asp:TextBox ID="txtPassword1" runat="server" CssClass="auto-style19" TextMode="Password"></asp:TextBox>
-            <asp:TextBox ID="txtPassword2" runat="server" CssClass="auto-style28" TextMode="Password"></asp:TextBox>
+                Text="Re-Set Password"></asp:Label>
+            <asp:Label ID="lblEmail" runat="server" CssClass="auto-style14" Font-Bold="True" Font-Size="X-Large" ForeColor="OrangeRed" Text="E-Mail Address"></asp:Label>
+            <asp:TextBox ID="txtEMail" runat="server" CssClass="auto-style18"></asp:TextBox>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:Button ID="btnChange" runat="server" CssClass="auto-style26" Font-Size="Large" ForeColor="#666666" Text="Change Password" OnClick="btnChange_Click" />
-            <asp:Button ID="btnCancel" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Done" OnClick="btnCancel_Click" />
+            <asp:Button ID="btnReSend" runat="server" CssClass="auto-style26" Font-Size="Large" ForeColor="#666666" Text="Re-Set Password" OnClick="btnReSend_Click" />
+            <asp:Button ID="btnView" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="View Email" OnClick="btnView_Click" />
+            <asp:Button ID="btnDone" runat="server" CssClass="auto-style24" Font-Size="Large" ForeColor="#666666" Text="Done" OnClick="Button8_Click" />
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="OrangeRed" CssClass="auto-style2">
         </asp:Panel>
