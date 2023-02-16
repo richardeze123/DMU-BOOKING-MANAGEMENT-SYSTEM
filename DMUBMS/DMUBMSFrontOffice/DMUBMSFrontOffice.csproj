@@ -69,19 +69,17 @@
   <ItemGroup>
     <Content Include="AnHotel.aspx" />
     <Content Include="car.jpg" />
-    <Content Include="CarLogin.aspx" />
-    <Content Include="CarRegister.aspx" />
+    <Content Include="ChangePassword.aspx" />
     <Content Include="DefaultHotel.aspx" />
     <Content Include="DeleteCar.aspx" />
     <Content Include="DeleteFlight.aspx" />
     <Content Include="DeleteHotel.aspx" />
-    <Content Include="FlightLogin.aspx" />
-    <Content Include="FlightRegister.aspx" />
+    <Content Include="DMUBMS.jpg" />
     <Content Include="HomePage.aspx" />
     <Content Include="hotel.jpg" />
-    <Content Include="HotelLogin.aspx" />
-    <Content Include="HotelRegister.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="plane.jpg" />
+    <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,19 +90,12 @@
     <Compile Include="AnHotel.aspx.designer.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CarLogin.aspx.cs">
-      <DependentUpon>CarLogin.aspx</DependentUpon>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CarLogin.aspx.designer.cs">
-      <DependentUpon>CarLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CarRegister.aspx.cs">
-      <DependentUpon>CarRegister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CarRegister.aspx.designer.cs">
-      <DependentUpon>CarRegister.aspx</DependentUpon>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="DefaultHotel.aspx.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
@@ -134,20 +125,6 @@
     <Compile Include="DeleteHotel.aspx.designer.cs">
       <DependentUpon>DeleteHotel.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FlightLogin.aspx.cs">
-      <DependentUpon>FlightLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FlightLogin.aspx.designer.cs">
-      <DependentUpon>FlightLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FlightRegister.aspx.cs">
-      <DependentUpon>FlightRegister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FlightRegister.aspx.designer.cs">
-      <DependentUpon>FlightRegister.aspx</DependentUpon>
-    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -155,21 +132,21 @@
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HotelLogin.aspx.cs">
-      <DependentUpon>HotelLogin.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HotelLogin.aspx.designer.cs">
-      <DependentUpon>HotelLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="HotelRegister.aspx.cs">
-      <DependentUpon>HotelRegister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="HotelRegister.aspx.designer.cs">
-      <DependentUpon>HotelRegister.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
