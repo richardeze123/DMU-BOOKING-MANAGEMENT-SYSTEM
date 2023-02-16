@@ -191,11 +191,11 @@
             <asp:Label ID="Label14" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Name"></asp:Label>
         </div>
         <asp:Panel ID="Panel1" runat="server" BackColor="#009933" CssClass="auto-style1">
-            <asp:Label ID="Label5" runat="server" 
+            <asp:Label ID="lblHotelManagement" runat="server" 
     CssClass="auto-style25" Text="Hotel Management" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="Label6" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
+            <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
             <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
             <asp:TextBox ID="TextBox7" runat="server" CssClass="auto-style42"></asp:TextBox>

@@ -1,0 +1,6 @@
+H:\Downloads\5\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.dll
+H:\Downloads\5\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.pdb
+H:\Downloads\5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.AssemblyReference.cache
+H:\Downloads\5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.CoreCompileInputs.cache
+H:\Downloads\5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.dll
+H:\Downloads\5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.pdb
