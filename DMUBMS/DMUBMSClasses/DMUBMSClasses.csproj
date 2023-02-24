@@ -42,6 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsDataConnection.cs" />
+    <Compile Include="clsHotel.cs" />
+    <Compile Include="clsHotelCollection.cs" />
+    <Compile Include="clsRoomsAvailable.cs" />
+    <Compile Include="clsRoomsAvailableCollection.cs" />
     <Compile Include="clsSecurity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

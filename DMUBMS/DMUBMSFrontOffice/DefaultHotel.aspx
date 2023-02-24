@@ -145,7 +145,7 @@
         <asp:Button ID="Button4" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
         <asp:Button ID="Button6" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
         <asp:Button ID="Button5" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" />
-        <asp:Label ID="Label16" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Please Enter a Phone Number"></asp:Label>
+        <asp:Label ID="Label16" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Please Enter a Hotel Name"></asp:Label>
     </form>
 </body>
 </html>

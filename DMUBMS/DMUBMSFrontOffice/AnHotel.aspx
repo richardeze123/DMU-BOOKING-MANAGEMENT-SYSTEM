@@ -86,7 +86,7 @@
             top: 270px;
             left: 14px;
             z-index: 1;
-            width: 131px;
+            width: 155px;
             height: 28px;
             margin-top: 0px;
         }
@@ -101,9 +101,9 @@
         .auto-style35 {
             position: absolute;
             top: 419px;
-            left: 16px;
+            left: 13px;
             z-index: 1;
-            width: 132px;
+            width: 173px;
             height: 28px;
         }
         .auto-style36 {
@@ -157,7 +157,7 @@
         .auto-style42 {
             position: absolute;
             top: 363px;
-            left: 178px;
+            left: 181px;
             z-index: 1;
             width: 279px;
             height: 29px;
@@ -165,15 +165,15 @@
         .auto-style44 {
             position: absolute;
             top: 459px;
-            left: 176px;
+            left: 179px;
             z-index: 1;
             width: 279px;
             height: 29px;
         }
         .auto-style45 {
             position: absolute;
-            top: 423px;
-            left: 185px;
+            top: 421px;
+            left: 190px;
             z-index: 1;
             width: 286px;
             height: 30px;
@@ -183,12 +183,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label9" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Number"></asp:Label>
-            <asp:Label ID="Label11" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Phone Number"></asp:Label>
+            <asp:Label ID="Label9" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Star Rating"></asp:Label>
+            <asp:Label ID="Label11" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Name"></asp:Label>
             <asp:Label ID="Label12" runat="server" CssClass="auto-style34" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Address"></asp:Label>
             <asp:Label ID="Label13" runat="server" CssClass="auto-style36" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Date Added"></asp:Label>
-            <asp:Label ID="Label15" runat="server" CssClass="auto-style35" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Star Rating"></asp:Label>
-            <asp:Label ID="Label14" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Name"></asp:Label>
+            <asp:Label ID="Label15" runat="server" CssClass="auto-style35" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Rooms Available"></asp:Label>
+            <asp:Label ID="Label14" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Phone Number"></asp:Label>
         </div>
         <asp:Panel ID="Panel1" runat="server" BackColor="#009933" CssClass="auto-style1">
             <asp:Label ID="lblHotelManagement" runat="server" 
