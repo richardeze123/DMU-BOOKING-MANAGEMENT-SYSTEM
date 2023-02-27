@@ -20,7 +20,7 @@ namespace DMUBMSFrontOffice
 
         protected void btnCanel_Click(object sender, EventArgs e)
         {
-            //navigate back to default
+            //navigate back to login
             Response.Redirect("Login.aspx");
         }
 

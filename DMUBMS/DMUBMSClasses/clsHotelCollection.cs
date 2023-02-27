@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DMUBMSClasses
 {
-    class clsHotelCollection
+    public class clsHotelCollection
     {
         //private data member for the list
         List<clsHotel> mHotelList = new List<clsHotel>();
@@ -44,7 +44,7 @@ namespace DMUBMSClasses
                 //read in the fields from the current record
                 AnHotel.Active = Convert.ToBoolean(DB.DataTable.Rows[Index]["Active"]);
                 AnHotel.HotelNo = Convert.ToInt32(DB.DataTable.Rows[Index]["HotelNo"]);
-                AnHotel.RoomNo = Convert.ToInt32(DB.DataTable.Rows[Index]["RoomNo"]);
+                AnHotel.RoomsAvailableNo = Convert.ToInt32(DB.DataTable.Rows[Index]["RoomsAvailableNo"]);
                 AnHotel.DateAdded = Convert.ToDateTime(DB.DataTable.Rows[Index]["DateAdded"]);
                 AnHotel.StarRating = Convert.ToString(DB.DataTable.Rows[Index]["StarRating"]);
                 AnHotel.HotelName = Convert.ToString(DB.DataTable.Rows[Index]["HotelName"]);
@@ -110,11 +110,11 @@ namespace DMUBMSClasses
             //connect to the database
             clsDataConnection DB = new clsDataConnection();
             //set the parameters for the stored procedure
-            DB.AddParameter("@HouseNo", mThisHotel.HouseNo);
-            DB.AddParameter("@Street", mThisHotel.Street);
-            DB.AddParameter("@Town", mThisHotel.Town);
-            DB.AddParameter("@PostCode", mThisHotel.PostCode);
-            DB.AddParameter("@CountyNo", mThisHotel.CountyNo);
+            DB.AddParameter("@StarRating", mThisHotel.StarRating);
+            DB.AddParameter("@PhoneNumber", mThisHotel.PhoneNumber);
+            DB.AddParameter("@HotelAddress", mThisHotel.HotelAddress);
+            DB.AddParameter("@HotelName", mThisHotel.HotelName);
+            DB.AddParameter("@RoomsAvailableNo", mThisHotel.RoomsAvailableNo);
             DB.AddParameter("@DateAdded", mThisHotel.DateAdded);
             DB.AddParameter("@Active", mThisHotel.Active);
             //execute the query returning the primary key value
@@ -123,42 +123,42 @@ namespace DMUBMSClasses
 
         public void Delete()
         {
-            //deletes the record pointed to by thisAddress
+            //deletes the record pointed to by thisHotel
             //connect to the database
             clsDataConnection DB = new clsDataConnection();
             //set the parameters for the stored procedure
-            DB.AddParameter("@AddressNo", mThisAddress.AddressNo);
+            DB.AddParameter("@HotelNo", mThisHotel.HotelNo);
             //execute the stored procedure
-            DB.Execute("sproc_tblAddress_Delete");
+            DB.Execute("sproc_tblHotel_Delete");
         }
 
         public void Update()
         {
-            //update an existing record based on the values of thisAddress
+            //update an existing record based on the values of thisHotel
             //connect to the database
             clsDataConnection DB = new clsDataConnection();
             //set the parameters for the stored procedure
-            DB.AddParameter("@AddressNo", mThisAddress.AddressNo);
-            DB.AddParameter("@HouseNo", mThisAddress.HouseNo);
-            DB.AddParameter("@Street", mThisAddress.Street);
-            DB.AddParameter("@Town", mThisAddress.Town);
-            DB.AddParameter("@PostCode", mThisAddress.PostCode);
-            DB.AddParameter("@CountyNo", mThisAddress.CountyNo);
-            DB.AddParameter("@DateAdded", mThisAddress.DateAdded);
-            DB.AddParameter("@Active", mThisAddress.Active);
+            DB.AddParameter("@HotelNo", mThisHotel.HotelNo);
+            DB.AddParameter("@StarRating", mThisHotel.StarRating);
+            DB.AddParameter("@PhoneNumber", mThisHotel.PhoneNumber);
+            DB.AddParameter("@HotelAddress", mThisHotel.HotelAddress);
+            DB.AddParameter("@HotelName", mThisHotel.HotelName);
+            DB.AddParameter("@RoomsAvailableNo", mThisHotel.RoomsAvailableNo);
+            DB.AddParameter("@DateAdded", mThisHotel.DateAdded);
+            DB.AddParameter("@Active", mThisHotel.Active);
             //execute the stored procedure
-            DB.Execute("sproc_tblAddress_Update");
+            DB.Execute("sproc_tblHotel_Update");
         }
 
-        public void ReportByPostCode(string PostCode)
+        public void ReportByHotelName(string HotelName)
         {
             //filters the records based on a full or partial post code
             //connect to the database
             clsDataConnection DB = new clsDataConnection();
-            //send the PostCode parameter to the database
-            DB.AddParameter("@PostCode", PostCode);
+            //send the HotelName parameter to the database
+            DB.AddParameter("@HotelName", HotelName);
             //execute the stored procedure
-            DB.Execute("sproc_tblAddress_FilterByPostCode");
+            DB.Execute("sproc_tblHotel_FilterByHotelName");
             //populate the array list with the data table
             PopulateArray(DB);
         }

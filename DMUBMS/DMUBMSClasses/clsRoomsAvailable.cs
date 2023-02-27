@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DMUBMSClasses
 {
-    class clsRoomsAvailable
+    public class clsRoomsAvailable
     {
         public string RoomsAvailable { get; set; }
 
-        public int RoomNo { get; set; }
+        public int RoomsAvailableNo { get; set; }
 
         public string Valid(string someRoomsAvailable)
         {
@@ -20,12 +20,12 @@ namespace DMUBMSClasses
             if (someRoomsAvailable.Length > 50)
             {
                 //return an error message
-                Error = "The RoomsAvailable cannot have more than 50 characters";
+                Error = "The Rooms Available cannot have more than 50 characters";
             }
             if (someRoomsAvailable.Length == 0)
             {
                 //return an error message
-                Error = "The RoomsAvailable name may not be blank!";
+                Error = "The Rooms Available may not be blank!";
             }
             return Error;
         }

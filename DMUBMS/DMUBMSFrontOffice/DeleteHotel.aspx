@@ -89,9 +89,9 @@
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
         </asp:Panel>
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="No" />
-        <asp:Button ID="Button5" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Yes" />
-        <asp:Label ID="Label16" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Are you sure you want to delete this Hotel?"></asp:Label>
+        <asp:Button ID="btnNo" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="No" OnClick="btnNo_Click" />
+        <asp:Button ID="btnYes" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Yes" OnClick="btnYes_Click" />
+        <asp:Label ID="lblHotelNo" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Are you sure you want to delete this Hotel?"></asp:Label>
     </form>
 </body>
 </html>

@@ -24,13 +24,13 @@ namespace DMUBMSFrontOffice
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            //go back to the main page
+            //go back to the login page
             Response.Redirect("Login.aspx");
         }
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-            //go back to the main page
+            //go back to the login page
             Response.Redirect("Login.aspx");
         }
     }
