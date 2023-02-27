@@ -29,7 +29,7 @@ namespace DMUBMSFrontOffice
 
         protected void Button8_Click(object sender, EventArgs e)
         {
-            //go back to the main page
+            //go back to the login page
             Response.Redirect("Login.aspx");
         }
 

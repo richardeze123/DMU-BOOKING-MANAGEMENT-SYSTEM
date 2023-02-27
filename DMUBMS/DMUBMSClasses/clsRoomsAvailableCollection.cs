@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DMUBMSClasses
 {
-    class clsRoomsAvailableCollection
+     public class clsRoomsAvailableCollection
     {
-        //private data member for the allRoomsAvailable list
+        //private data member for the allRoomsAvailables list
         private List<clsRoomsAvailable> mAllRoomsAvailables = new List<clsRoomsAvailable>();
 
         //public constructor for the class
@@ -30,7 +30,7 @@ namespace DMUBMSClasses
                 //get the RoomsAvailable name
                 ARoomsAvailable.RoomsAvailable = DB.DataTable.Rows[Index]["RoomsAvailable"].ToString();
                 //get the primary key
-                ARoomsAvailable.RoomNo = Convert.ToInt32(DB.DataTable.Rows[Index]["RoomNo"]);
+                ARoomsAvailable.RoomsAvailableNo = Convert.ToInt32(DB.DataTable.Rows[Index]["RoomsAvailableNo"]);
                 //add the RoomsAvailable to the private data member
                 mAllRoomsAvailables.Add(ARoomsAvailable);
                 //increment the index

@@ -159,6 +159,14 @@
             width: 243px;
             height: 104px;
         }
+        .auto-style20 {
+            position: absolute;
+            top: 183px;
+            left: 879px;
+            z-index: 1;
+            width: 113px;
+            height: 42px;
+        }
     </style>
 </head>
 <body>
@@ -216,6 +224,7 @@
         <asp:Button ID="btnGo3" runat="server" CssClass="auto-style17" 
             Font-Bold="True" Font-Names="Akzidenz-Grotesk Pro Bold Ext" 
             Font-Size="XX-Large" ForeColor="#666666" OnClick="Button1_Click1" Text="GO" />
+        <asp:Button ID="btnLogout" runat="server" CssClass="auto-style20" Font-Size="Large" ForeColor="#666666" OnClick="btnLogout_Click" Text="Logout" />
     </form>
 </body>
 </html>

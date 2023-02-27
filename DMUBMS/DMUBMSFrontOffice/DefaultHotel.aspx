@@ -99,11 +99,11 @@
         }
         .auto-style22 {
             position: absolute;
-            top: 189px;
-            left: 4px;
+            top: 512px;
+            left: 22px;
             z-index: 1;
-            width: 58px;
-            height: 22px;
+            width: 454px;
+            height: 113px;
         }
         .auto-style38 {
             position: absolute;
@@ -121,6 +121,14 @@
             width: 279px;
             height: 29px;
         }
+        .auto-style41 {
+            position: absolute;
+            top: 702px;
+            left: 25px;
+            z-index: 1;
+            width: 133px;
+            height: 51px;
+        }
         </style>
 </head>
 <body>
@@ -135,17 +143,18 @@
             <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
             <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:TextBox ID="TextBox13" runat="server" CssClass="auto-style39"></asp:TextBox>
+            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style39"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
         </asp:Panel>
-        <asp:ListBox ID="ListBox1" runat="server" CssClass="auto-style26"></asp:ListBox>
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Edit" />
-        <asp:Button ID="Button2" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Delete" />
-        <asp:Button ID="Button4" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
-        <asp:Button ID="Button6" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
-        <asp:Button ID="Button5" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" />
-        <asp:Label ID="Label16" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Please Enter a Hotel Name"></asp:Label>
+        <asp:ListBox ID="lstHotels" runat="server" CssClass="auto-style26"></asp:ListBox>
+        <asp:Button ID="btnEdit" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Edit" OnClick="btnEdit_Click" />
+        <asp:Button ID="btnDelete" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Delete" OnClick="btnDelete_Click" />
+        <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
+        <asp:Button ID="btnHomePage" runat="server" CssClass="auto-style41" Font-Size="Large" ForeColor="#666666" Text="Home Page" OnClick="btnHomePage_Click" />
+        <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
+        <asp:Button ID="btnAdd" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" OnClick="btnAdd_Click" />
+        <asp:Label ID="lblHotelName" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Please Enter a Hotel Name"></asp:Label>
     </form>
 </body>
 </html>

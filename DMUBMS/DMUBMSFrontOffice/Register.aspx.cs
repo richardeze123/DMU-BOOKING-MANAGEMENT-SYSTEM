@@ -29,7 +29,7 @@ namespace DMUBMSFrontOffice
 
         protected void btnDone_Click(object sender, EventArgs e)
         {
-            //if done redirect to main page
+            //if done redirect to login page
             Response.Redirect("Login.aspx");
         }
 
@@ -47,7 +47,7 @@ namespace DMUBMSFrontOffice
 
         protected void Button8_Click(object sender, EventArgs e)
         {
-            //if done redirect to main page
+            //if done redirect to login page
             Response.Redirect("Login.aspx");
         }
 

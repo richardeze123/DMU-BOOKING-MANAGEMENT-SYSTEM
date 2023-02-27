@@ -37,7 +37,7 @@ namespace DMUBMSFrontOffice
                 //if it isn't authenticated
                 if (IsAuthenticated(Sec) == false)
                 {
-                    //redirect back to the main page as the user hasn't got permission to use this page
+                    //redirect back to the login page as the user hasn't got permission to use this page
                     Response.Redirect("Login.aspx");
                 }
             }
@@ -70,7 +70,7 @@ namespace DMUBMSFrontOffice
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            //go back to the main page
+            //go back to the login page
             Response.Redirect("Login.aspx");
         }
 

@@ -16,7 +16,7 @@ namespace DMUBMSFrontOffice
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            //redirect to the main page
+            //redirect to the Hotel Page
             Response.Redirect("DefaultHotel.aspx");
         }
 
@@ -28,6 +28,12 @@ namespace DMUBMSFrontOffice
         protected void Button1_Click1(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            //redirect to the Login page
+            Response.Redirect("Login.aspx");
         }
     }
 }

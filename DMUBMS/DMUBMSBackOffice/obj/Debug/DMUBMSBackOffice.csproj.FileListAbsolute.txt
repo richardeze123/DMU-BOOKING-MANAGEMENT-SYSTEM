@@ -1,0 +1,6 @@
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\bin\Debug\DMUBMSBackOffice.dll
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\bin\Debug\DMUBMSBackOffice.pdb
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.AssemblyReference.cache
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.CoreCompileInputs.cache
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.dll
+H:\Downloads\WOOZ\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.pdb

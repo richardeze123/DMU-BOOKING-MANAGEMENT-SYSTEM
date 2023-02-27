@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DMUBMSClasses
 {
-    class clsHotel
+    public class clsHotel
     {
         //private data member for the HotelNo property
         private Int32 mHotelNo;
@@ -18,8 +18,8 @@ namespace DMUBMSClasses
         private string mHotelAddress;
         //private data member for HotelName
         private string mHotelName;
-        //private data member for county no
-        private Int32 mRoomsAvailable;
+        //private data member for RoomsAvailableNo
+        private Int32 mRoomsAvailableNo;
         //private date added data member
         private DateTime mDateAdded;
         //private data member for active
@@ -70,18 +70,18 @@ namespace DMUBMSClasses
             }
         }
 
-        //public property for Room No
-        public int RoomsAvailable
+        //public property for RoomsAvailableNo
+        public int RoomsAvailableNo
         {
             get
             {
                 //return the private data
-                return mRoomsAvailable;
+                return mRoomsAvailableNo;
             }
             set
             {
                 //set the private data
-                mRoomsAvailable = value;
+                mRoomsAvailableNo = value;
             }
         }
 
@@ -150,7 +150,7 @@ namespace DMUBMSClasses
         {
             //create an instance of the data connection
             clsDataConnection DB = new clsDataConnection();
-            //add the parameter for the Hotelno to search for
+            //add the parameter for the HotelNo to search for
             DB.AddParameter("@HotelNo", HotelNo);
             //execute the stored procedure
             DB.Execute("sproc_tblHotel_FilterByHotelNo");
@@ -163,7 +163,7 @@ namespace DMUBMSClasses
                 mPhoneNumber = Convert.ToString(DB.DataTable.Rows[0]["PhoneNumber"]);
                 mHotelAddress = Convert.ToString(DB.DataTable.Rows[0]["HotelAddress"]);
                 mHotelName = Convert.ToString(DB.DataTable.Rows[0]["HotelName"]);
-                mRoomsAvailable = Convert.ToInt32(DB.DataTable.Rows[0]["RoomsAvailable"]);
+                mRoomsAvailableNo = Convert.ToInt32(DB.DataTable.Rows[0]["RoomsAvailableNo"]);
                 mDateAdded = Convert.ToDateTime(DB.DataTable.Rows[0]["DateAdded"]);
                 mActive = Convert.ToBoolean(DB.DataTable.Rows[0]["Active"]);
                 //return that everything worked OK
@@ -189,11 +189,11 @@ namespace DMUBMSClasses
                 //record the error
                 Error = Error + "The Star Rating may not be blank : ";
             }
-            //if the starRating is greater than 6 characters
+            //if the starRating is greater than 1 character
             if (starRating.Length > 1)
             {
                 //record the error
-                Error = Error + "The Star Rating must be less than 1 characters : ";
+                Error = Error + "The Star Rating must be less than 1 character : ";
             }
             try
             {
@@ -222,7 +222,7 @@ namespace DMUBMSClasses
                 //record the error
                 Error = Error + "The Hotel Name may not be blank : ";
             }
-            //if the post code is too long
+            //if the hotelName is too long
             if (hotelName.Length > 50)
             {
                 //record the error
