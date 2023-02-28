@@ -2,68 +2,77 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using DMUBMSClasses;
 
 namespace DMUBMSTesting
 {
-    /// <summary>
-    /// Summary description for tstRoomsAvailableCollection
-    /// </summary>
     [TestClass]
     public class tstRoomsAvailableCollection
     {
-        public tstRoomsAvailableCollection()
+        [TestMethod]
+        public void InstanceOK()
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            //create an instance of the class we want to create
+            clsRoomsAvailableCollection AllRoomsAvailables = new clsRoomsAvailableCollection();
+            //test to see that it exists
+            Assert.IsNotNull(AllRoomsAvailables);
         }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
 
         [TestMethod]
-        public void TestMethod1()
+        public void CountPropertyOK()
         {
-            //
-            // TODO: Add test logic here
-            //
+            //create an instance of the class we want to create
+            clsRoomsAvailableCollection AllRoomsAvailables = new clsRoomsAvailableCollection();
+            //create some test data to assign to the property
+            Int32 SomeCount = 50;
+            //assign the data to the property
+            AllRoomsAvailables.Count = SomeCount;
+            //test to see that the two values are the same
+            Assert.AreEqual(AllRoomsAvailables.Count, SomeCount);
+        }
+
+        [TestMethod]
+        public void AllRoomsAvailablesOK()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailableCollection RoomsAvailables = new clsRoomsAvailableCollection();
+            //create some test data to assign to the property
+            //in this case the data needs to be a list of objects
+            List<clsRoomsAvailable> TestList = new List<clsRoomsAvailable>();
+            //add an item to the list
+            //create the item of test data
+            clsRoomsAvailable TestItem = new clsRoomsAvailable();
+            //set its properties
+            TestItem.RoomsAvailableNo = 1;
+            TestItem.RoomsAvailable = "25";
+            //add the item to the test list
+            TestList.Add(TestItem);
+            //assign the data to the property
+            RoomsAvailables.AllRoomsAvailables = TestList;
+            //test to see that the two values are the same
+            Assert.AreEqual(RoomsAvailables.AllRoomsAvailables, TestList);
+        }
+
+        [TestMethod]
+        public void CountMatchesList()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailableCollection RoomsAvailables = new clsRoomsAvailableCollection();
+            //create some test data to assign to the property
+            //in this case the data needs to be a list of objects
+            List<clsRoomsAvailable> TestList = new List<clsRoomsAvailable>();
+            //add an item to the list
+            //create the item of test data
+            clsRoomsAvailable TestItem = new clsRoomsAvailable();
+            //set its properties
+            TestItem.RoomsAvailableNo = 1;
+            TestItem.RoomsAvailable = "25";
+            //add the item to the test list
+            TestList.Add(TestItem);
+            //assign the data to the property
+            RoomsAvailables.AllRoomsAvailables = TestList;
+            //test to see that the two values are the same
+            Assert.AreEqual(RoomsAvailables.Count, TestList.Count);
         }
     }
 }
