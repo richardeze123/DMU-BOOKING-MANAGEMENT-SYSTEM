@@ -10,3 +10,9 @@ H:\Downloads\WOOZ\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.AssemblyRe
 H:\Downloads\WOOZ\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.CoreCompileInputs.cache
 H:\Downloads\WOOZ\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.dll
 H:\Downloads\WOOZ\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.pdb
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.dll
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.pdb
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.AssemblyReference.cache
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.CoreCompileInputs.cache
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.dll
+H:\Downloads\PROJECT\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.pdb
