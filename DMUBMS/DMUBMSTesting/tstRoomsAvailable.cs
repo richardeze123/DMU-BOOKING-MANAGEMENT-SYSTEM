@@ -2,68 +2,185 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using DMUBMSClasses;
 
 namespace DMUBMSTesting
 {
-    /// <summary>
-    /// Summary description for tstRoomsAvailable
-    /// </summary>
     [TestClass]
     public class tstRoomsAvailable
     {
-        public tstRoomsAvailable()
+        [TestMethod]
+        public void InstanceOK()
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //test to see that it exists
+            Assert.IsNotNull(ARoomsAvailable);
         }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
 
         [TestMethod]
-        public void TestMethod1()
+        public void CountPropertyOK()
         {
-            //
-            // TODO: Add test logic here
-            //
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create some test data to assign to the property
+            string SomeRoomsAvailable = "25";
+            //assign the data to the property
+            ARoomsAvailable.RoomsAvailable = SomeRoomsAvailable;
+            //test to see that the values are the same
+            Assert.AreEqual(ARoomsAvailable.RoomsAvailable, SomeRoomsAvailable);
         }
+
+        [TestMethod]
+        public void CountNoPropertyOK()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create some test data to assign to the property
+            Int32 RoomsAvailableNo = 1;
+            //assign the data to the property
+            ARoomsAvailable.RoomsAvailableNo = RoomsAvailableNo;
+            //test to see that the values are the same
+            Assert.AreEqual(ARoomsAvailable.RoomsAvailableNo, RoomsAvailableNo);
+        }
+
+        [TestMethod]
+        public void ValidMethodOK()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "25";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMinLessOne()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is NOT OK i.e there should be an error message
+            Assert.AreNotEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMinBoundary()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "1";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMinPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "11";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMaxLessOne()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "hfgdtgfhdbavhfgetdgsfadqrihgygdndhbdtopljghndbhgf";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+
+        [TestMethod]
+        public void RoomsAvailableMaxBoundary()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "hfgdtgfhdbavhfgetdgsfadqrihgygdndhbdtoplpjghndbhgf";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMaxPlusOne()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "hfgdtgfhdbavhfgetdgsfadqridhgygdndhbdtoplpjghndbhgf";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is NOT OK i.e there should be an error message
+            Assert.AreNotEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableMid()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "hfgdtgfhdbavhfgetdgsfadqr";
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is OK i.e there was no error message returned
+            Assert.AreEqual(Error, "");
+        }
+
+        [TestMethod]
+        public void RoomsAvailableEtremeMax()
+        {
+            //create an instance of the class we want to create
+            clsRoomsAvailable ARoomsAvailable = new clsRoomsAvailable();
+            //create a string variable to store the result of the validation
+            String Error = "";
+            //create some test data to test the method
+            string SomeRoomsAvailable = "";
+            //pad the string with characters
+            SomeRoomsAvailable = SomeRoomsAvailable.PadRight(500, '1');
+            //invoke the method
+            Error = ARoomsAvailable.Valid(SomeRoomsAvailable);
+            //test to see that the result is NOT OK i.e there should be an error message
+            Assert.AreNotEqual(Error, "");
+        }
+
     }
 }
