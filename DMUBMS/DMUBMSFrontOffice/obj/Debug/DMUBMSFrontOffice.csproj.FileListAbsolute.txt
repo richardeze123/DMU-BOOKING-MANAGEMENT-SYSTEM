@@ -360,3 +360,7 @@ H:\Downloads\SYSTEM2\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.csproj
 H:\Downloads\SYSTEM2\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.csproj.CopyComplete
 H:\Downloads\SYSTEM2\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.dll
 H:\Downloads\SYSTEM2\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.pdb
+H:\team work 3\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.csproj.AssemblyReference.cache
+H:\team work 3\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.csproj.CoreCompileInputs.cache
+H:\team work 3\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.dll
+H:\team work 3\DMUBMS\DMUBMSFrontOffice\obj\Debug\DMUBMSFrontOffice.pdb
