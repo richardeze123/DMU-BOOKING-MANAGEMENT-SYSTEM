@@ -92,5 +92,10 @@ namespace DMUBMSFrontOffice
             //redirect to the Home Page
             Response.Redirect("HomePage.aspx");
         }
+
+        protected void lstHotels_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
