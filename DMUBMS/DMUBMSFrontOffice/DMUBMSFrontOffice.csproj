@@ -71,6 +71,7 @@
     <Content Include="AnHotel.aspx" />
     <Content Include="car.jpg" />
     <Content Include="ChangePassword.aspx" />
+    <Content Include="DefaultCar.aspx" />
     <Content Include="DefaultHotel.aspx" />
     <Content Include="DeleteCar.aspx" />
     <Content Include="DeleteFlight.aspx" />
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="ChangePassword.aspx.designer.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultCar.aspx.cs">
+      <DependentUpon>DefaultCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultCar.aspx.designer.cs">
+      <DependentUpon>DefaultCar.aspx</DependentUpon>
     </Compile>
     <Compile Include="DefaultHotel.aspx.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
