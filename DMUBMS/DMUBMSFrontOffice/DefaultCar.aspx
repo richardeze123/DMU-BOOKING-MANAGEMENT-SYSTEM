@@ -58,12 +58,12 @@
         }
         .auto-style27 {
             position: absolute;
-            top: 433px;
-            left: 74px;
+            top: 440px;
+            left: 69px;
             z-index: 1;
             width: 87px;
             height: 38px;
-            right: 1324px;
+            right: 934px;
         }
         .auto-style28 {
             position: absolute;
@@ -101,16 +101,16 @@
         }
         .auto-style22 {
             position: absolute;
-            top: 512px;
-            left: 22px;
+            top: 561px;
+            left: 27px;
             z-index: 1;
-            width: 454px;
-            height: 113px;
+            width: 136px;
+            height: 22px;
         }
         .auto-style38 {
             position: absolute;
             top: 262px;
-            left: 92px;
+            left: 107px;
             z-index: 1;
             width: 328px;
             height: 21px;
@@ -144,12 +144,11 @@
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
             <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Cars"></asp:Label>
             <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
-            <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
             <asp:TextBox ID="txtCarName" runat="server" CssClass="auto-style39"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="Red" CssClass="auto-style2">
         </asp:Panel>
-        <asp:ListBox ID="lstCars" runat="server" CssClass="auto-style26"></asp:ListBox>
+        <asp:ListBox ID="lstCars" runat="server" CssClass="auto-style26" OnSelectedIndexChanged="lstCars_SelectedIndexChanged"></asp:ListBox>
         <asp:Button ID="btnEdit" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Edit" OnClick="btnEdit_Click" />
         <asp:Button ID="btnDelete" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Delete" OnClick="btnDelete_Click" />
         <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
@@ -157,6 +156,9 @@
         <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
         <asp:Button ID="btnAdd" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" OnClick="btnAdd_Click" />
         <asp:Label ID="LabelCarname" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Please Enter a Car Name"></asp:Label>
+        <p>
+            &nbsp;</p>
+            <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
     </form>
 </body>
 </html>

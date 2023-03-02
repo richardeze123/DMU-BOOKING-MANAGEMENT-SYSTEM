@@ -26,5 +26,10 @@ namespace DMUBMSFrontOffice
         {
 
         }
+
+        protected void lstCars_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
