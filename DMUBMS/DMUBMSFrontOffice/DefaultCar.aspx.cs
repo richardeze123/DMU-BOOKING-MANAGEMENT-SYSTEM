@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DMUBMSFrontOffice
 {
-    public partial class DefaultCar : System.Web.UI.Page
+/*    public partial class DefaultCar : System.Web.UI.Page
     {
         //this function will load the event for the page
         protected void Page_Load(object sender, EventArgs e)
@@ -31,5 +31,5 @@ namespace DMUBMSFrontOffice
         {
 
         }
-    }
+    }*/
 }
