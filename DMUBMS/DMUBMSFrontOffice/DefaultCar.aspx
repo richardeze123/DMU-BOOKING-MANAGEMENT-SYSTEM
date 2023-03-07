@@ -113,7 +113,7 @@
             left: 107px;
             z-index: 1;
             width: 328px;
-            height: 21px;
+            height: 25px;
         }
         .auto-style39 {
             position: absolute;
@@ -155,7 +155,7 @@
         <asp:Button ID="btnHomePage" runat="server" CssClass="auto-style41" Font-Size="Large" ForeColor="#666666" Text="Home Page" OnClick="btnHomePage_Click" />
         <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
         <asp:Button ID="btnAdd" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" OnClick="btnAdd_Click" />
-        <asp:Label ID="LabelCarname" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Please Enter a Car Name"></asp:Label>
+        <asp:Label ID="LabelCarname" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Please Enter a Car Brand"></asp:Label>
         <p>
             &nbsp;</p>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
