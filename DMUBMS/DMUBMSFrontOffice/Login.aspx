@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>DMUBMS</title>
     <style type="text/css">
         .auto-style1 {
             width: 991px;
@@ -119,6 +119,14 @@
             width: 114px;
             height: 48px;
         }
+        .auto-style28 {
+            position: absolute;
+            top: 189px;
+            left: 23px;
+            z-index: 1;
+            width: 248px;
+            height: 74px;
+        }
     </style>
 </head>
 <body>
@@ -146,6 +154,7 @@
         </asp:Panel>
         <asp:Image ID="Image1" runat="server" CssClass="auto-style20" ImageUrl="~/DMUBMS.jpg" />
         <asp:Button ID="btnRegister" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" OnClick="btnRegister_Click" Text="Register" />
+        <asp:Button ID="btnCustomerPage" runat="server" CssClass="auto-style28" Font-Bold="True" Font-Size="XX-Large" ForeColor="#666666" OnClick="btnCustomerPage_Click1" Text="Customer Page" />
     </form>
 </body>
 </html>

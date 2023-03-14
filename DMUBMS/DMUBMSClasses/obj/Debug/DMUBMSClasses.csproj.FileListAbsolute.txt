@@ -40,3 +40,9 @@ H:\Downloads\WEBSITE4\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.Assemb
 H:\Downloads\WEBSITE4\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.CoreCompileInputs.cache
 H:\Downloads\WEBSITE4\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.dll
 H:\Downloads\WEBSITE4\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.pdb
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.dll
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\bin\Debug\DMUBMSClasses.pdb
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.AssemblyReference.cache
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.csproj.CoreCompileInputs.cache
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.dll
+H:\Downloads\SYSTEM5\DMUBMS\DMUBMSClasses\obj\Debug\DMUBMSClasses.pdb

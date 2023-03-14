@@ -69,5 +69,17 @@ namespace DMUBMSFrontOffice
             //redirect to the register page
             Response.Redirect("Register.aspx");
         }
+
+        protected void btnCustomerPage_Click(object sender, EventArgs e)
+        {
+            //redirect to the Customer home page
+            Response.Redirect("index.html");
+        }
+
+        protected void btnCustomerPage_Click1(object sender, EventArgs e)
+        {
+            //redirect to the Customer home page
+            Response.Redirect("index.html");
+        }
     }
 }
