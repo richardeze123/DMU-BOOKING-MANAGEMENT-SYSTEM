@@ -1,13 +1,18 @@
-﻿<!--
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookingHotel.aspx.cs" Inherits="DMUBMSFrontOffice.BookingHotel" %>
+
+<!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>DMUBMS</title>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>DMUBMS</title>
+    <link rel="shortcut icon" href="DMUBMS50X50.jpg" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <!-- for-mobile-apps -->
@@ -24,6 +29,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //js -->
     <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
     <link href='//fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        .auto-style1 {
+            float: none;
+            width: 52%;
+            margin-bottom: 14px;
+        }
+        .auto-style2 {
+            float: none;
+            width: 52%;
+            margin-left: 0%;
+        }
+                .auto-style3 {
+            position: absolute;
+            top: 896px;
+            left: 752px;
+            z-index: 1;
+            width: 438px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
     <div id="head">
@@ -32,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="XXX.html">Hotels</a></li>
+                    <li><a href="indexHotel.aspx">Hotels</a></li>
                     <li><a href="XXX.html">Flights</a></li>
                     <li><a href="XXX.html">Car Rentals</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -45,14 +70,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="main">
         <h1 class="w3layouts_head">Booking</h1>
         <div class="w3layouts_main_grid">
-            <form action="#" method="post" class="w3_form_post">
                 <div class="w3_agileits_main_grid w3l_main_grid">
                     <div class="agileits_grid">
                         <h5>Name * </h5>
-                        <div class="nam">
+                        <div class="auto-style1">
                             <input type="text" name="First name" placeholder="First Name" required="">
                         </div>
-                        <div class="nam1">
+                        <div class="auto-style2">
                             <input type="text" name="Last name" placeholder="Last Name" required="">
                         </div>
                         <div class="clear"></div>
@@ -113,19 +137,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <option value="category2">05</option>
                             <option value="category3">06</option>
                         </select>
-                    </div>
+                            <form id="form1" runat="server">
+        <div>
+        </div>
+        <asp:Button ID="btnPAYMENT" runat="server" CssClass="auto-style1" Text="PAYMENT" OnClick="btnPAYMENT_Click" />
+    </form>
                 </div>
 
 
 
                 <div class="w3_main_grid">
 
-                    <div class="w3_main_grid_right">
-                        <input type="submit" value="Book Now">
-                    </div>
                     <div class="clear"> </div>
                 </div>
-            </form>
         </div>
         <!-- Calendar -->
         <link rel="stylesheet" href="css/jquery-ui.css" />
@@ -143,11 +167,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <p>&copy; 2023 DMU Booking Management System . All Rights Reserved | Design by <a href="https://w3layouts.com/">W3layouts</a></p>
                 <div class="ft-nav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="XXX.html">Hotels</a></li>
-                        <li><a href="XXX.html">Flights</a></li>
-                        <li><a href="XXX.html">Car Rentals</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexHotel.aspx">Hotels</a></li>
+                    <li><a href="XXX.html">Flights</a></li>
+                    <li><a href="XXX.html">Car Rentals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="clear"></div>
