@@ -40,19 +40,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             width: 52%;
             margin-left: 0%;
         }
-                .auto-style3 {
-            position: absolute;
-            top: 896px;
-            left: 752px;
-            z-index: 1;
-            width: 438px;
-            height: 40px;
+                .auto-style7 {
+            float: none;
+            margin-bottom: 14px;
         }
-    </style>
+                </style>
 </head>
 <body>
     <div id="head">
         <div class="wrap">
+            <form id="form1" runat="server">
             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
             <div class="nav">
                 <ul>
@@ -69,6 +66,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     <div class="main">
         <h1 class="w3layouts_head">Booking</h1>
+                        <div class="w3layouts_main_grid">
+                            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style1" OnTextChanged="txtHotelName_TextChanged" Width="520px" Height="18px"></asp:TextBox>
+                </div>
+                        <div class="w3layouts_main_grid">
+
+                            <asp:TextBox ID="txtStarRating" runat="server" CssClass="auto-style1" Height="16px" Width="214px" OnTextChanged="txtStarRating_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="txtPhoneNumber" runat="server" CssClass="auto-style1" Height="16px" Width="214px" OnTextChanged="txtPhoneNumber_TextChanged"></asp:TextBox>
+
+                </div>
+                        <div class="w3layouts_main_grid">
+                            <asp:TextBox ID="txtHotelAddress" runat="server" CssClass="auto-style7" Height="16px" Width="530px" OnTextChanged="txtHotelAddress_TextChanged"></asp:TextBox>
+                </div>
         <div class="w3layouts_main_grid">
                 <div class="w3_agileits_main_grid w3l_main_grid">
                     <div class="agileits_grid">
@@ -126,8 +135,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="clear"> </div>
                     </div>
                 </div>
-                <div class="agileinfo_main_grid">
-                    <div class="agileits_w3layouts_grid">
                         <h5>Number of Guests *</h5>
                         <select id="category1" name="category1" required="">
                             <option value="category1">01</option>
@@ -137,10 +144,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <option value="category2">05</option>
                             <option value="category3">06</option>
                         </select>
-                            <form id="form1" runat="server">
-        <div>
-        </div>
-        <asp:Button ID="btnPAYMENT" runat="server" CssClass="auto-style1" Text="PAYMENT" OnClick="btnPAYMENT_Click" />
+                                        <div class="w3_main_grid_right">
+        <asp:Button ID="btnPAYMENT" runat="server" CssClass="auto-style1" Text="PAYMENT" OnClick="btnPAYMENT_Click" type="submit" value="Payment" />
+            </div>
     </form>
                 </div>
 
@@ -148,7 +154,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="w3_main_grid">
 
-                    <div class="clear"> </div>
                 </div>
         </div>
         <!-- Calendar -->
@@ -160,7 +165,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
         </script>
         <!-- //Calendar -->
-    </div>
     <div class="footer">
         <div class="wrap">
             <div id="fbr">

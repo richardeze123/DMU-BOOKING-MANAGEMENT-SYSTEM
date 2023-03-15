@@ -27,6 +27,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin-bottom: 14px;
             margin-left: 0px;
         }
+        .auto-style3 {
+            position: absolute;
+            top: 736px;
+            left: 1082px;
+            z-index: 1;
+        }
         </style>
 </head>
 <body>
@@ -73,16 +79,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         3.	On the hotel page, review the hotel's description, facilities, and room types available.
                     </p>
                     <p>
-                        4.	Review the details of your booking.
+                        4.	If you're satisfied with your selection, click on the "Book Now" button.
                     </p>
                     <p>
-                        5.	If you're satisfied with your selection, click on the "Book Now" button.
+                        5.	Enter your personal information and complete your booking details.
                     </p>
                     <p>
-                        6.	Enter your personal information, including your name, email address, and payment information.
+                        6.	Enter your payment information.
                     </p>
                     <p>
-                        7.	Review your booking details and click on the "Confirm Booking" button.
+                        7.	Review your booking details and click on the "Finish" button.
                     </p>
                     <p>
                         8.	After the booking is confirmed, you will receive an email confirmation with the details of your reservation.
@@ -130,10 +136,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <ul class="sub-nav">
                         <li><a href="#">Single Room : £50</a></li>
                         <li><a href="#">Double Room: £75</a></li>
-                        <li><a href="#">Suit Room: £100</a></li>
+                        <li><a href="#">Suit Room: £100
+                            </a></li>
                     </ul>
                 </div>
                 <div class="sub-sidebar">
+                    <asp:Label ID="lblError" runat="server" CssClass="auto-style1" Width="250px"></asp:Label>
     <form id="form1" runat="server">
         <asp:ListBox ID="lstHotels" runat="server" CssClass="auto-style2" OnSelectedIndexChanged="lstHotels_SelectedIndexChanged" Height="327px" Width="242px"></asp:ListBox>
         <asp:Button ID="btnBookNow" runat="server" CssClass="auto-style1" Text="Book Now" OnClick="btnBookNow_Click" Width="250px" />
