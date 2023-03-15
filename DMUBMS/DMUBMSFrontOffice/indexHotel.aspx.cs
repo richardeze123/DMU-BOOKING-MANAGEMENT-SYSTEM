@@ -41,8 +41,23 @@ namespace DMUBMSFrontOffice
 
         protected void btnBookNow_Click(object sender, EventArgs e)
         {
-            //navigate back to booking page
-            Response.Redirect("BookingHotel.aspx");
+            //var to store the primary key value of the record to be edited
+            Int32 HotelNo;
+            //if a record has been selected from the list
+            if (lstHotels.SelectedIndex != -1)
+            {
+                //get the primary key value of the record to edit
+                HotelNo = Convert.ToInt32(lstHotels.SelectedValue);
+                //store the data in the session object
+                Session["HotelNo"] = HotelNo;
+                //redirect to the Booking page page
+                Response.Redirect("BookingHotel.aspx");
+            }
+            else//if no record has been selected
+            {
+                //display an error
+                lblError.Text = "Please select a Hotel to Book from the list.";
+            }
         }
     }
 }
