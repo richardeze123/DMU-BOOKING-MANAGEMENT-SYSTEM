@@ -150,9 +150,9 @@
         <asp:ListBox ID="lstHotels" runat="server" CssClass="auto-style26" OnSelectedIndexChanged="lstHotels_SelectedIndexChanged"></asp:ListBox>
         <asp:Button ID="btnEdit" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Edit" OnClick="btnEdit_Click" />
         <asp:Button ID="btnDelete" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Delete" OnClick="btnDelete_Click" />
-        <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
+        <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" OnClick="btnApply_Click" />
         <asp:Button ID="btnHomePage" runat="server" CssClass="auto-style41" Font-Size="Large" ForeColor="#666666" Text="Home Page" OnClick="btnHomePage_Click" />
-        <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
+        <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" OnClick="btnDisplayAll_Click" />
         <asp:Button ID="btnAdd" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" OnClick="btnAdd_Click" />
         <asp:Label ID="lblHotelName" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Please Enter a Hotel Name"></asp:Label>
     </form>

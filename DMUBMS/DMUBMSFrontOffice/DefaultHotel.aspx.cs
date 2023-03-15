@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DMUBMSClasses;
 
 namespace DMUBMSFrontOffice
 {
@@ -96,6 +97,79 @@ namespace DMUBMSFrontOffice
         protected void lstHotels_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        //event handler for the apply button
+        protected void btnApply_Click(object sender, EventArgs e)
+        {
+            //declare var to store the record count
+            Int32 RecordCount;
+            //assign the results of the DisplayHotels function to the record count var
+            RecordCount = DisplayHotels(txtHotelName.Text);
+            //display the number of records found
+            lblError.Text = RecordCount + " records found";
+        }
+
+        //event hanlder for the display all button
+        protected void btnDisplayAll_Click(object sender, EventArgs e)
+        {
+            //var to store the record count
+            Int32 RecordCount;
+            //assign the results of the DisplayHotels function to the record count var
+            RecordCount = DisplayHotels("");
+            //display the number of records found
+            lblError.Text = RecordCount + " records in the database";
+            //clear the post code filter text box
+            txtHotelName.Text = "";
+        }
+
+        //function use to populate the list box
+        Int32 DisplayHotels(string HotelNameFilter)
+        {
+            ///this function accepts one parameter - the HotelName to filter the list on
+            ///it populates the list box with data from the middle layer class
+            ///it returns a single value, the number of records found
+
+            //create a new instance of the clsHotel
+            clsHotelCollection MyHotelBook = new clsHotelCollection();
+            //var to store the count of records
+            Int32 RecordCount;
+            //var to store the StarRating
+            string StarRating;
+            //var to store the PhoneNumber
+            string PhoneNumber;
+            //var to store the HotelName
+            string HotelName;
+            //var to store the primary key value
+            string HotelNo;
+            //var to store the index
+            Int32 Index = 0;
+            //clear the list of any existing items
+            lstHotels.Items.Clear();
+            //call the filter by HotelName method
+            MyHotelBook.ReportByHotelName(HotelNameFilter);
+            //get the count of records found
+            RecordCount = MyHotelBook.Count;
+            //loop through each record found using the index to point to each record in the data table
+            while (Index < RecordCount)
+            {
+                //get the StarRating from the query results
+                StarRating = Convert.ToString(MyHotelBook.HotelList[Index].StarRating);
+                //get the PhoneNumber from the query results
+                PhoneNumber = Convert.ToString(MyHotelBook.HotelList[Index].PhoneNumber);
+                //get the HotelName from the query results
+                HotelName = Convert.ToString(MyHotelBook.HotelList[Index].HotelName);
+                //get the HotelNo from the query results
+                HotelNo = Convert.ToString(MyHotelBook.HotelList[Index].HotelNo);
+                //set up a new object of class list item 
+                ListItem NewItem = new ListItem(StarRating + " " + PhoneNumber + " " + HotelName, HotelNo);
+                //add the new item to the list
+                lstHotels.Items.Add(NewItem);
+                //increment the index
+                Index++;
+            }
+            //return the number of records found
+            return RecordCount;
         }
     }
 }
