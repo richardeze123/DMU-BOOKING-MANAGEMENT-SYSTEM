@@ -79,7 +79,7 @@ namespace DMUBMSFrontOffice
         protected void btnCustomerPage_Click1(object sender, EventArgs e)
         {
             //redirect to the Customer home page
-            Response.Redirect("index.html");
+            Response.Redirect("indexLogin.aspx");
         }
     }
 }
