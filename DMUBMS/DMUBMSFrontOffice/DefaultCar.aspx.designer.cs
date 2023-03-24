@@ -60,13 +60,13 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Label lbldmubms;
 
         /// <summary>
-        /// txtCarName control.
+        /// txtCarRegNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCarName;
+        protected global::System.Web.UI.WebControls.TextBox txtCarRegNo;
 
         /// <summary>
         /// Panel2 control.
@@ -78,13 +78,13 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// lstCars control.
+        /// lstRegNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lstCars;
+        protected global::System.Web.UI.WebControls.ListBox lstRegNo;
 
         /// <summary>
         /// btnEdit control.
@@ -141,13 +141,13 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Button btnAdd;
 
         /// <summary>
-        /// LabelCarname control.
+        /// LabelCarRegNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelCarname;
+        protected global::System.Web.UI.WebControls.Label LabelCarRegNo;
 
         /// <summary>
         /// lblError control.

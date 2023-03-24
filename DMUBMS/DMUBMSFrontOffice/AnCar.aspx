@@ -50,17 +50,17 @@
         }
         .auto-style27 {
             position: absolute;
-            top: 695px;
-            left: 78px;
+            top: 539px;
+            left: 30px;
             z-index: 1;
             width: 87px;
             height: 38px;
-            right: 1320px;
+            right: 927px;
         }
         .auto-style28 {
             position: absolute;
-            top: 695px;
-            left: 199px;
+            top: 547px;
+            left: 212px;
             z-index: 1;
             width: 87px;
             height: 38px;
@@ -72,6 +72,7 @@
             z-index: 1;
             width: 241px;
             height: 28px;
+            bottom: 277px;
         }
         .auto-style32 {
             position: absolute;
@@ -105,6 +106,7 @@
             z-index: 1;
             width: 277px;
             height: 28px;
+            right: 754px;
         }
         .auto-style36 {
             position: absolute;
@@ -116,19 +118,19 @@
         }
         .auto-style37 {
             position: absolute;
-            top: 518px;
-            left: 17px;
+            top: 440px;
+            left: 21px;
             z-index: 1;
-            width: 91px;
+            width: 129px;
             height: 31px;
         }
         .auto-style22 {
             position: absolute;
-            top: 555px;
-            left: 8px;
+            top: 486px;
+            left: 14px;
             z-index: 1;
-            width: 522px;
-            height: 117px;
+            width: 456px;
+            height: 63px;
         }
         .auto-style24 {
             position: absolute;
@@ -164,15 +166,15 @@
         }
         .auto-style44 {
             position: absolute;
-            top: 459px;
-            left: 179px;
+            top: 427px;
+            left: 172px;
             z-index: 1;
             width: 279px;
             height: 29px;
         }
         .auto-style45 {
             position: absolute;
-            top: 424px;
+            top: 421px;
             left: 190px;
             z-index: 1;
             width: 286px;
@@ -183,34 +185,31 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblStarRating" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Star Rating"></asp:Label>
-            <asp:Label ID="lblHotelName" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Name"></asp:Label>
-            <asp:Label ID="lblHotelAddress" runat="server" CssClass="auto-style34" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Address"></asp:Label>
-            <asp:Label ID="lblDateAdded" runat="server" CssClass="auto-style36" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Date Added"></asp:Label>
-            <asp:Label ID="lblRoomsAvailable" runat="server" CssClass="auto-style35" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Rooms Available"></asp:Label>
-            <asp:Label ID="lblPhoneNumber" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Phone Number"></asp:Label>
+            <asp:Label ID="lblRegNo" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="RegNo"></asp:Label>
+            <asp:Label ID="lblHotelName" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Price"></asp:Label>
+            <asp:Label ID="lblModel" runat="server" CssClass="auto-style34" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Model"></asp:Label>
+            <asp:Label ID="lblBrand" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Brand"></asp:Label>
         </div>
-        <asp:Panel ID="Panel1" runat="server" BackColor="#009933" CssClass="auto-style1">
+        <asp:Panel ID="Panel1" runat="server" BackColor="Red" CssClass="auto-style1">
             <asp:Label ID="lblHotelManagement" runat="server" 
-    CssClass="auto-style25" Text="Hotel Management" Font-Bold="True" 
+    CssClass="auto-style25" Text="Car Management" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
+            <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Cars"></asp:Label>
             <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style42"></asp:TextBox>
-            <asp:TextBox ID="txtStarRating" runat="server" CssClass="auto-style24"></asp:TextBox>
-            <asp:TextBox ID="txtDateAdded" runat="server" CssClass="auto-style44"></asp:TextBox>
-            <asp:TextBox ID="txtHotelAddress" runat="server" CssClass="auto-style41"></asp:TextBox>
-            <asp:TextBox ID="txtPhoneNumber" runat="server" CssClass="auto-style40"></asp:TextBox>
+            <asp:TextBox ID="txtPrice" runat="server" CssClass="auto-style42"></asp:TextBox>
+            <asp:TextBox ID="txtRegNo" runat="server" CssClass="auto-style24"></asp:TextBox>
+            <asp:TextBox ID="txtModel" runat="server" CssClass="auto-style41"></asp:TextBox>
+            <asp:TextBox ID="txtBrand" runat="server" CssClass="auto-style40"></asp:TextBox>
         </asp:Panel>
-        <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
+        <asp:Panel ID="Panel2" runat="server" BackColor="Red" CssClass="auto-style2">
         </asp:Panel>
         <asp:Button ID="btnCancel" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Cancel" OnClick="btnCancel_Click" />
         <asp:Button ID="btnOk" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="OK" OnClick="btnOk_Click" />
-        <asp:CheckBox ID="chkActive" runat="server" CssClass="auto-style37" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Active" />
-        <asp:DropDownList ID="ddlRoomsAvailable" runat="server" CssClass="auto-style45">
-        </asp:DropDownList>
+        <p>
+        <asp:CheckBox ID="chkActive" runat="server" CssClass="auto-style37" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Available" />
+        </p>
     </form>
 </body>
 </html>
