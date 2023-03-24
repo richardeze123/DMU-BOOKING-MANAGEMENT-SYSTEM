@@ -143,7 +143,7 @@
             <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
             <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style39"></asp:TextBox>
+            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style39" OnTextChanged="txtHotelName_TextChanged"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
         </asp:Panel>

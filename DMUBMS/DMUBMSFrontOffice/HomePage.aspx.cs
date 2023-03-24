@@ -22,7 +22,8 @@ namespace DMUBMSFrontOffice
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+            //redirect to the Car Page 
+            Response.Redirect("DefaultCar.aspx");
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
