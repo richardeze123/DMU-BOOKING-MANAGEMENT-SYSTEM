@@ -68,11 +68,11 @@
         .auto-style28 {
             position: absolute;
             top: 432px;
-            left: 192px;
+            left: 191px;
             z-index: 1;
             width: 87px;
             height: 38px;
-            right: 740px;
+            right: 1232px;
         }
         .auto-style29 {
             position: absolute;
@@ -144,18 +144,18 @@
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
             <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Cars"></asp:Label>
             <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
-            <asp:TextBox ID="txtCarRegNo" runat="server" CssClass="auto-style39"></asp:TextBox>
+            <asp:TextBox ID="txtCarName" runat="server" CssClass="auto-style39"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="Red" CssClass="auto-style2">
         </asp:Panel>
-        <asp:ListBox ID="lstRegNo" runat="server" CssClass="auto-style26" OnSelectedIndexChanged="lstCars_SelectedIndexChanged"></asp:ListBox>
+        <asp:ListBox ID="lstCars" runat="server" CssClass="auto-style26" OnSelectedIndexChanged="lstCars_SelectedIndexChanged"></asp:ListBox>
         <asp:Button ID="btnEdit" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Edit" OnClick="btnEdit_Click" />
         <asp:Button ID="btnDelete" runat="server" CssClass="auto-style29" Font-Size="Large" ForeColor="#666666" Text="Delete" OnClick="btnDelete_Click" />
-        <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" OnClick="btnApply_Click" />
+        <asp:Button ID="btnApply" runat="server" CssClass="auto-style30" Font-Size="Large" ForeColor="#666666" Text="Apply" />
         <asp:Button ID="btnHomePage" runat="server" CssClass="auto-style41" Font-Size="Large" ForeColor="#666666" Text="Home Page" OnClick="btnHomePage_Click" />
-        <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" OnClick="btnDisplayAll_Click" />
+        <asp:Button ID="btnDisplayAll" runat="server" CssClass="auto-style31" Font-Size="Large" ForeColor="#666666" Text="Display All" />
         <asp:Button ID="btnAdd" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Add" OnClick="btnAdd_Click" />
-        <asp:Label ID="LabelCarRegNo" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Please Enter a Car RegNo"></asp:Label>
+        <asp:Label ID="LabelCarname" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Text="Please Enter a Car Brand"></asp:Label>
         <p>
             &nbsp;</p>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>

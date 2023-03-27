@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ActivateAccount.aspx" />
-    <Content Include="AnCar.aspx" />
     <Content Include="AnHotel.aspx" />
     <Content Include="BookingHotel.aspx" />
     <Content Include="car.jpg" />
@@ -114,7 +113,6 @@
     <Content Include="images\user.png" />
     <Content Include="images\visa.png" />
     <Content Include="index.html" />
-    <Content Include="IndexCar.aspx" />
     <Content Include="indexHotel.aspx" />
     <Content Include="indexLogin.aspx" />
     <Content Include="js\easyResponsiveTabs.js" />
@@ -139,15 +137,9 @@
     <Compile Include="ActivateAccount.aspx.designer.cs">
       <DependentUpon>ActivateAccount.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AnCar.aspx.cs">
-      <DependentUpon>AnCar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AnCar.aspx.designer.cs">
-      <DependentUpon>AnCar.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AnHotel.aspx.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AnHotel.aspx.designer.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
@@ -214,13 +206,6 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="IndexCar.aspx.cs">
-      <DependentUpon>IndexCar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="IndexCar.aspx.designer.cs">
-      <DependentUpon>IndexCar.aspx</DependentUpon>
     </Compile>
     <Compile Include="indexHotel.aspx.cs">
       <DependentUpon>indexHotel.aspx</DependentUpon>

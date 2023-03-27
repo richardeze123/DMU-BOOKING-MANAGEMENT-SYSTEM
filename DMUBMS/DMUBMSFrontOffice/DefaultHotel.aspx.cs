@@ -171,10 +171,5 @@ namespace DMUBMSFrontOffice
             //return the number of records found
             return RecordCount;
         }
-
-        protected void txtHotelName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

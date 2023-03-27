@@ -172,7 +172,7 @@
         }
         .auto-style45 {
             position: absolute;
-            top: 424px;
+            top: 421px;
             left: 190px;
             z-index: 1;
             width: 286px;
