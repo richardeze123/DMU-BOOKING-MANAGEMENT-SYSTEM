@@ -57,8 +57,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <img src="images/indexHotel.gif" alt="" width="310" class="mac" />
                 <div class="desp">
                     <h1>Hotels</h1>
-                    <p>Welcome to the Hotels section of DMU Booking Management System! We offer a vast selection of hotels worldwide, ranging from budget-friendly options to luxury resorts. Whether you're traveling for business or pleasure, our platform provides you with the flexibility to book your hotel accommodations with ease. Plus, our team of travel experts is always available to help you with any questions or concerns you may have. Book your next hotel stay with DMU Booking Management System and experience the convenience and reliability of our platform.</p>
-                </div>
+</div>
                 <div class="clear"></div>
             </div>
         </div>
@@ -70,28 +69,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <h2>How to Book</h2>
                     <div id="prev"><img src="images/indexHotel2.gif" alt="" /></div>
                     <p>
-                        1.	Navigate to the Hotels section.
+                        1. Research the hotel you intend to stay at online.
+                    </p>
+                                        <p>
+                                            🏨
+
                     </p>
                     <p>
-                        2.	Browse through the list of hotels and click on the one you want to book.
+                        2. After selecting the hotel from the list, click the Book Now option.
+                    </p>
+                                                            <p>
+                                                                🏨
+
                     </p>
                     <p>
-                        3.	On the hotel page, review the hotel's description, facilities, and room types available.
+                        3. Browse the hotel details, fill out your personal information and booking information, and then click the Payment option.
+                    </p>
+                                                            <p>
+                                                                🏨
+
                     </p>
                     <p>
-                        4.	If you're satisfied with your selection, click on the "Book Now" button.
+                        4. Provide your payment information in detail.
+                    </p>
+                                                            <p>
+                                                                🏨
+
                     </p>
                     <p>
-                        5.	Enter your personal information and complete your booking details.
+                        5. Check the information regarding your payment and booking, then click Finish.
                     </p>
-                    <p>
-                        6.	Enter your payment information.
-                    </p>
-                    <p>
-                        7.	Review your booking details and click on the "Finish" button.
-                    </p>
-                    <p>
-                        8.	After the booking is confirmed, you will receive an email confirmation with the details of your reservation.
+                                                                                <p>
+                                                                🏨
+
                     </p>
                     <div class="clear"></div>
                 </div>
