@@ -27,7 +27,7 @@ namespace DMUBMSFrontOffice
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-
+            Response.Redirect("DefaultFlight.aspx");
         }
 
         protected void btnLogout_Click(object sender, EventArgs e)

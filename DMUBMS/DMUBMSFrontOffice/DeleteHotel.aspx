@@ -55,7 +55,7 @@
             z-index: 1;
             width: 87px;
             height: 38px;
-            right: 1380px;
+            right: 916px;
         }
         .auto-style28 {
             position: absolute;

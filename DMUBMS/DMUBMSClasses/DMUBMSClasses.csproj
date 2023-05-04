@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsDataConnection.cs" />
+    <Compile Include="clsFlight.cs" />
+    <Compile Include="clsFlightCollection.cs" />
     <Compile Include="clsHotel.cs" />
     <Compile Include="clsHotelCollection.cs" />
     <Compile Include="clsRoomsAvailable.cs" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AnHotel.aspx.cs" Inherits="DMUBMSFrontOffice.AnHotel" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AnFlight.aspx.cs" Inherits="DMUBMSFrontOffice.AnFlight" %>
 
 <!DOCTYPE html>
 
@@ -54,6 +54,7 @@
             left: 78px;
             z-index: 1;
             width: 87px;
+            height: 38px;
             right: 1320px;
         }
         .auto-style28 {
@@ -66,15 +67,15 @@
         }
         .auto-style23 {
             position: absolute;
-            top: 372px;
-            left: 15px;
+            top: 192px;
+            left: 14px;
             z-index: 1;
             width: 241px;
             height: 28px;
         }
         .auto-style32 {
             position: absolute;
-            top: 218px;
+            top: 262px;
             left: 15px;
             z-index: 1;
             width: 217px;
@@ -82,8 +83,8 @@
         }
         .auto-style33 {
             position: absolute;
-            top: 270px;
-            left: 14px;
+            top: 334px;
+            left: 16px;
             z-index: 1;
             width: 229px;
             height: 28px;
@@ -91,18 +92,10 @@
         }
         .auto-style34 {
             position: absolute;
-            top: 322px;
+            top: 401px;
             left: 15px;
             z-index: 1;
             width: 231px;
-            height: 28px;
-        }
-        .auto-style35 {
-            position: absolute;
-            top: 419px;
-            left: 13px;
-            z-index: 1;
-            width: 277px;
             height: 28px;
         }
         .auto-style36 {
@@ -131,15 +124,15 @@
         }
         .auto-style24 {
             position: absolute;
-            top: 213px;
-            left: 180px;
+            top: 251px;
+            left: 182px;
             z-index: 1;
             width: 279px;
             height: 29px;
         }
         .auto-style40 {
             position: absolute;
-            top: 261px;
+            top: 319px;
             left: 180px;
             z-index: 1;
             width: 279px;
@@ -147,16 +140,16 @@
         }
         .auto-style41 {
             position: absolute;
-            top: 311px;
-            left: 179px;
+            top: 392px;
+            left: 182px;
             z-index: 1;
             width: 279px;
             height: 29px;
         }
         .auto-style42 {
             position: absolute;
-            top: 363px;
-            left: 181px;
+            top: 181px;
+            left: 184px;
             z-index: 1;
             width: 279px;
             height: 29px;
@@ -169,47 +162,36 @@
             width: 279px;
             height: 29px;
         }
-        .auto-style45 {
-            position: absolute;
-            top: 421px;
-            left: 190px;
-            z-index: 1;
-            width: 286px;
-            height: 30px;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblStarRating" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Star Rating"></asp:Label>
-            <asp:Label ID="lblHotelName" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Name"></asp:Label>
-            <asp:Label ID="lblHotelAddress" runat="server" CssClass="auto-style34" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Hotel Address"></asp:Label>
-            <asp:Label ID="lblDateAdded" runat="server" CssClass="auto-style36" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Date Added"></asp:Label>
-            <asp:Label ID="lblRoomsAvailable" runat="server" CssClass="auto-style35" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Rooms Available"></asp:Label>
-            <asp:Label ID="lblPhoneNumber" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Phone Number"></asp:Label>
+            <asp:Label ID="lblFlightGroup" runat="server" CssClass="auto-style32" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Flight Group"></asp:Label>
+            <asp:Label ID="lblFlightName" runat="server" CssClass="auto-style23" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Flight Name"></asp:Label>
+            <asp:Label ID="lblFlightCompany" runat="server" CssClass="auto-style34" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Flight Company"></asp:Label>
+            <asp:Label ID="lblDateAdded" runat="server" CssClass="auto-style36" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Date Added"></asp:Label>
+            <asp:Label ID="lblFlightCode" runat="server" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Flight Code"></asp:Label>
         </div>
-        <asp:Panel ID="Panel1" runat="server" BackColor="#009933" CssClass="auto-style1">
-            <asp:Label ID="lblHotelManagement" runat="server" 
-    CssClass="auto-style25" Text="Hotel Management" Font-Bold="True" 
+        <asp:Panel ID="Panel1" runat="server" BackColor="Blue" CssClass="auto-style1">
+            <asp:Label ID="lblFlightManagement" runat="server" 
+    CssClass="auto-style25" Text="Flight Management" Font-Bold="True" 
                 Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
                 Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
-            <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
+            <asp:Label ID="lblManageFlights" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Flights"></asp:Label>
             <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style42"></asp:TextBox>
-            <asp:TextBox ID="txtStarRating" runat="server" CssClass="auto-style24"></asp:TextBox>
+            <asp:TextBox ID="txtFlightName" runat="server" CssClass="auto-style42"></asp:TextBox>
+            <asp:TextBox ID="txtFlightGroup" runat="server" CssClass="auto-style24"></asp:TextBox>
             <asp:TextBox ID="txtDateAdded" runat="server" CssClass="auto-style44"></asp:TextBox>
-            <asp:TextBox ID="txtHotelAddress" runat="server" CssClass="auto-style41"></asp:TextBox>
-            <asp:TextBox ID="txtPhoneNumber" runat="server" CssClass="auto-style40"></asp:TextBox>
+            <asp:TextBox ID="txtFlightCompany" runat="server" CssClass="auto-style41"></asp:TextBox>
+            <asp:TextBox ID="txtFlightCode" runat="server" CssClass="auto-style40"></asp:TextBox>
         </asp:Panel>
-        <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
+        <asp:Panel ID="Panel2" runat="server" BackColor="Blue" CssClass="auto-style2">
         </asp:Panel>
         <asp:Button ID="btnCancel" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="Cancel" OnClick="btnCancel_Click" />
         <asp:Button ID="btnOk" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="OK" OnClick="btnOk_Click" />
-        <asp:CheckBox ID="chkActive" runat="server" CssClass="auto-style37" Font-Bold="True" Font-Size="X-Large" ForeColor="Green" Text="Active" />
-        <asp:DropDownList ID="ddlRoomsAvailable" runat="server" CssClass="auto-style45">
-        </asp:DropDownList>
+        <asp:CheckBox ID="chkActive" runat="server" CssClass="auto-style37" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Active" />
     </form>
 </body>
 </html>

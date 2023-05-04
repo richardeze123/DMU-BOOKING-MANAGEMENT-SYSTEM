@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ActivateAccount.aspx" />
+    <Content Include="AnFlight.aspx" />
     <Content Include="AnHotel.aspx" />
+    <Content Include="BookingFlight.aspx" />
     <Content Include="BookingHotel.aspx" />
     <Content Include="car.jpg" />
     <Content Include="ChangePassword.aspx" />
@@ -80,6 +82,7 @@
     <Content Include="css\style2.css" />
     <Content Include="css\style4.css" />
     <Content Include="DefaultCar.aspx" />
+    <Content Include="DefaultFlight.aspx" />
     <Content Include="DefaultHotel.aspx" />
     <Content Include="DeleteCar.aspx" />
     <Content Include="DeleteFlight.aspx" />
@@ -114,6 +117,7 @@
     <Content Include="images\user.png" />
     <Content Include="images\visa.png" />
     <Content Include="index.html" />
+    <Content Include="indexFlight.aspx" />
     <Content Include="indexHotel.aspx" />
     <Content Include="indexLogin.aspx" />
     <Content Include="js\easyResponsiveTabs.js" />
@@ -138,12 +142,26 @@
     <Compile Include="ActivateAccount.aspx.designer.cs">
       <DependentUpon>ActivateAccount.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AnFlight.aspx.cs">
+      <DependentUpon>AnFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnFlight.aspx.designer.cs">
+      <DependentUpon>AnFlight.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AnHotel.aspx.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AnHotel.aspx.designer.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookingFlight.aspx.cs">
+      <DependentUpon>BookingFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookingFlight.aspx.designer.cs">
+      <DependentUpon>BookingFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="BookingHotel.aspx.cs">
       <DependentUpon>BookingHotel.aspx</DependentUpon>
@@ -165,6 +183,13 @@
     </Compile>
     <Compile Include="DefaultCar.aspx.designer.cs">
       <DependentUpon>DefaultCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultFlight.aspx.cs">
+      <DependentUpon>DefaultFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultFlight.aspx.designer.cs">
+      <DependentUpon>DefaultFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="DefaultHotel.aspx.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
@@ -207,6 +232,13 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="indexFlight.aspx.cs">
+      <DependentUpon>indexFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexFlight.aspx.designer.cs">
+      <DependentUpon>indexFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="indexHotel.aspx.cs">
       <DependentUpon>indexHotel.aspx</DependentUpon>

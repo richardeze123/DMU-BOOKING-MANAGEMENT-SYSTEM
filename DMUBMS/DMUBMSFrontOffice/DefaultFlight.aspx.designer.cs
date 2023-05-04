@@ -11,7 +11,7 @@ namespace DMUBMSFrontOffice
 {
 
 
-    public partial class DeleteFlight
+    public partial class DefaultFlight
     {
 
         /// <summary>
@@ -60,6 +60,24 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Label lbldmubms;
 
         /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
+
+        /// <summary>
+        /// txtFlightName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFlightName;
+
+        /// <summary>
         /// Panel2 control.
         /// </summary>
         /// <remarks>
@@ -69,30 +87,75 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// btnNo control.
+        /// lstFlights control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNo;
+        protected global::System.Web.UI.WebControls.ListBox lstFlights;
 
         /// <summary>
-        /// btnYes control.
+        /// btnEdit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnYes;
+        protected global::System.Web.UI.WebControls.Button btnEdit;
 
         /// <summary>
-        /// lblFlightNo control.
+        /// btnDelete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFlightNo;
+        protected global::System.Web.UI.WebControls.Button btnDelete;
+
+        /// <summary>
+        /// btnApply control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnApply;
+
+        /// <summary>
+        /// btnHomePage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnHomePage;
+
+        /// <summary>
+        /// btnDisplayAll control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDisplayAll;
+
+        /// <summary>
+        /// btnAdd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdd;
+
+        /// <summary>
+        /// lblFlightName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFlightName;
     }
 }

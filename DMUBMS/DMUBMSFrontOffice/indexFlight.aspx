@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="indexHotel.aspx.cs" Inherits="DMUBMSFrontOffice.indexHotel" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="indexFlight.aspx.cs" Inherits="DMUBMSFrontOffice.indexFlight" %>
 
 <!--
 Author: W3layouts
@@ -42,9 +42,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="indexHotel.aspx">Hotels</a></li>
-                    <li><a href="indexFlight.aspx">Flights</a></li>
-                    <li><a href="XXX.html">Car Rentals</a></li>
+                    <li class="active"><a href="indexFlight.aspx">Flights</a></li>
+                    <li><a href="indexHotel.aspx">Hotels</a></li>
+                    <li><a href="indexCar.aspx">Car Rentals</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="sub-header">
                 <img src="images/indexHotel.gif" alt="" width="310" class="mac" />
                 <div class="desp">
-                    <h1>Hotels</h1>
+                    <h1>Flights</h1>
 </div>
                 <div class="clear"></div>
             </div>
@@ -68,92 +68,93 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div id="article">
                     <h2>How to Book</h2>
                     <div id="prev"><img src="images/indexHotel2.gif" alt="" /></div>
-                    <p>
-                        1. Research the hotel you intend to stay at online.
+                                        <p>
+                        1. Research the Flight you wish to board onto online.
                     </p>
                                         <p>
-                                            🏨
+                                            
 
                     </p>
                     <p>
-                        2. After selecting the hotel from the list, click the Book Now option.
+                        2. Upon choosing your desired Flight from the list, click the Book Now option.
                     </p>
                                                             <p>
-                                                                🏨
+                                                                
 
                     </p>
                     <p>
-                        3. Browse the hotel details, fill out your personal information and booking information, and then click the Payment option.
+                        3. Browse the Flight details, fill out your personal information and booking information, and then click the Payment option.
                     </p>
                                                             <p>
-                                                                🏨
+                                                                
 
                     </p>
                     <p>
                         4. Provide your payment information in detail.
                     </p>
                                                             <p>
-                                                                🏨
+                                                                
 
                     </p>
                     <p>
                         5. Check the information regarding your payment and booking, then click Finish.
                     </p>
                                                                                 <p>
-                                                                🏨
+                                                                
 
-                    </p>
+                    </p>`
                     <div class="clear"></div>
                 </div>
                 <div id="article">
+                    <h2>Reviews</h2>
                     <h2>Reviews</h2>
                     <p>
                         ⭐⭐⭐⭐⭐
                     </p>
                     <p>
-                        Jack Hughes - Would be happy to recommend this site to other travellers.
+                        Emily Chen - Great flight booking experience. Fast and easy to use website
                     </p>
                     <p>
                         ⭐⭐⭐⭐⭐
                     </p>
                     <p>
-                        Jose Cook - The site is absolutely great for booking as well as cancellations.
+                        Michael Lee - Great selection of airlines to choose from. Was able to find the perfect flight for my itinerary
                     </p>
                     <p>
                         ⭐⭐⭐⭐⭐
                     </p>
                     <p>
-                        Larry Smith - I would recommend this site to anyone thinking of making a booking.
+                        Lisa Park - User-friendly website made it easy to book my flight. Received all necessary information via email.
                     </p>
                     <p>
                         ⭐⭐⭐⭐⭐
                     </p>
                     <p>
-                        Olivia Smith - Excellent site: Information, accessibility and presentation are excellent.
+                        Jessica Nerole - Flight was on time and comfortable. Would book with this site again.
                     </p>
                     <p>
                         ⭐⭐⭐⭐⭐
                     </p>
                     <p>
-                        Arthur Baker - Easy page, all bookings were perfect.
+                        James Wong - Smooth check-in and boarding process. Flight crew was friendly and attentive.
                     </p>
                     <div class="clear"></div>
                 </div>
             </div>
             <div class="sidebar">
                 <div class="sub-sidebar">
-                    <h2>Rooms</h2>
+                    <h2>FlightGroups Costs</h2>
                     <ul class="sub-nav">
-                        <li><a href="#">Single Room : £50</a></li>
-                        <li><a href="#">Double Room: £75</a></li>
-                        <li><a href="#">Suit Room: £100
+                        <li><a href="#">Economy class : £169.99</a></li>
+                        <li><a href="#">Business class: £289.99</a></li>
+                        <li><a href="#">First class: £459.99
                             </a></li>
                     </ul>
                 </div>
                 <div class="sub-sidebar">
                     <asp:Label ID="lblError" runat="server" CssClass="auto-style1" Width="250px"></asp:Label>
     <form id="form1" runat="server">
-        <asp:ListBox ID="lstHotels" runat="server" CssClass="auto-style2" OnSelectedIndexChanged="lstHotels_SelectedIndexChanged" Height="327px" Width="242px"></asp:ListBox>
+        <asp:ListBox ID="lstFlights" runat="server" CssClass="auto-style2" OnSelectedIndexChanged="lstFlights_SelectedIndexChanged" Height="327px" Width="242px"></asp:ListBox>
         <asp:Button ID="btnBookNow" runat="server" CssClass="auto-style1" Text="Book Now" OnClick="btnBookNow_Click" Width="250px" />
     </form>
                 </div>
@@ -169,7 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="indexHotel.aspx">Hotels</a></li>
-                        <li><a href="XXX.html">Flights</a></li>
+                        <li><a href="active"><a href="indexFlight.aspx">Flights</a></li>
                         <li><a href="XXX.html">Car Rentals</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
