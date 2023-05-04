@@ -60,3 +60,19 @@ H:\Downloads\SYSTEM5\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.csproj.CoreCom
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.csproj.CopyComplete
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.dll
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.pdb
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\DMUBMSTesting.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\DMUBMSTesting.pdb
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\DMUBMSClasses.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\DMUBMSClasses.pdb
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.csproj.AssemblyReference.cache
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.csproj.CoreCompileInputs.cache
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.csproj.CopyComplete
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.dll
+H:\Team Dev work 6\DMUBMS\DMUBMSTesting\obj\Debug\DMUBMSTesting.pdb
