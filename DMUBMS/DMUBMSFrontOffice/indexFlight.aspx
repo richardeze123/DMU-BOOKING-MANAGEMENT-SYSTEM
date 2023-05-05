@@ -170,7 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="indexHotel.aspx">Hotels</a></li>
                         <li><a href="active"><a href="indexFlight.aspx">Flights</a></li>
-                        <li><a href="XXX.html">Car Rentals</a></li>
+                        <li><a href="active"><a href="IndexCar.aspx">Car Rentals</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
