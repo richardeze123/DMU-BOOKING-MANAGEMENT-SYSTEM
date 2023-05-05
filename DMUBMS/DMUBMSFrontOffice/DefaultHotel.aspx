@@ -50,7 +50,7 @@
         }
         .auto-style26 {
             position: absolute;
-            top: 203px;
+            top: 201px;
             left: 511px;
             z-index: 1;
             width: 468px;
@@ -59,11 +59,11 @@
         .auto-style27 {
             position: absolute;
             top: 433px;
-            left: 74px;
+            left: 75px;
             z-index: 1;
             width: 87px;
             height: 38px;
-            right: 1324px;
+            right: 1437px;
         }
         .auto-style28 {
             position: absolute;
@@ -99,7 +99,7 @@
         }
         .auto-style22 {
             position: absolute;
-            top: 512px;
+            top: 514px;
             left: 22px;
             z-index: 1;
             width: 454px;
@@ -143,7 +143,7 @@
             <asp:Label ID="lblManageHotels" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Hotels"></asp:Label>
             <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
-            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style39" OnTextChanged="txtHotelName_TextChanged1"></asp:TextBox>
+            <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style39" OnTextChanged="txtHotelName_TextChanged"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">
         </asp:Panel>

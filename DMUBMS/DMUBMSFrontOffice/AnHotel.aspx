@@ -198,9 +198,9 @@
             <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
             <asp:Label ID="lblError" runat="server" CssClass="auto-style22"></asp:Label>
             <asp:TextBox ID="txtHotelName" runat="server" CssClass="auto-style42"></asp:TextBox>
-            <asp:TextBox ID="txtStarRating" runat="server" CssClass="auto-style24"></asp:TextBox>
+            <asp:TextBox ID="txtStarRating" runat="server" CssClass="auto-style24" OnTextChanged="txtStarRating_TextChanged"></asp:TextBox>
             <asp:TextBox ID="txtDateAdded" runat="server" CssClass="auto-style44"></asp:TextBox>
-            <asp:TextBox ID="txtHotelAddress" runat="server" CssClass="auto-style41"></asp:TextBox>
+            <asp:TextBox ID="txtHotelAddress" runat="server" CssClass="auto-style41" OnTextChanged="txtHotelAddress_TextChanged"></asp:TextBox>
             <asp:TextBox ID="txtPhoneNumber" runat="server" CssClass="auto-style40"></asp:TextBox>
         </asp:Panel>
         <asp:Panel ID="Panel2" runat="server" BackColor="#009933" CssClass="auto-style2">

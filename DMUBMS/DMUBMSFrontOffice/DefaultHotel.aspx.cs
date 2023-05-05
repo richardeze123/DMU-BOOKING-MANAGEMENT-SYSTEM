@@ -176,10 +176,5 @@ namespace DMUBMSFrontOffice
         {
 
         }
-
-        protected void txtHotelName_TextChanged1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

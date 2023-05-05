@@ -145,5 +145,15 @@ namespace DMUBMSFrontOffice
             chkActive.Checked = HotelBook.ThisHotel.Active;
             ddlRoomsAvailable.SelectedValue = HotelBook.ThisHotel.RoomsAvailableNo.ToString();
         }
+
+        protected void txtStarRating_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtHotelAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
