@@ -46,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
                 </style>
 </head>
-<body>
+<body style="background-image: url('images/airport.png')">
     <div id="head">
         <div class="wrap">
             <form id="form1" runat="server">
@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="agileits_main_grid w3_agileits_main_grid">
                     <div class="wthree_grid">
-                        <h5>Room Type</h5>
+                        <h5>Flight Group</h5>
                         <select id="category" name="category" required="">
                             <option value="none">None</option>
                             <option value="category1">First Class</option>

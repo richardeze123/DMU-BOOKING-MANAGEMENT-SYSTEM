@@ -28,10 +28,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin-left: 0px;
         }
         .auto-style3 {
-            position: absolute;
-            top: 736px;
-            left: 1082px;
-            z-index: 1;
+            width: 590px;
+            height: 350px;
         }
         </style>
 </head>
@@ -54,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="header">
         <div class="wrap">
             <div class="sub-header">
-                <img src="images/indexHotel.gif" alt="" width="310" class="mac" />
+                <img src="images/plane.jfif" alt="" width="310" class="mac" />
                 <div class="desp">
                     <h1>Flights</h1>
 </div>
@@ -67,7 +65,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="content">
                 <div id="article">
                     <h2>How to Book</h2>
-                    <div id="prev"><img src="images/indexHotel2.gif" alt="" /></div>
+                    <div id="prev">
+                        <img class="auto-style3" src="images/flight.jpg" /></div>
                                         <p>
                         1. Research the Flight you wish to board onto online.
                     </p>

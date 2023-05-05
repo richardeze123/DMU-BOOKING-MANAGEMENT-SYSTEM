@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookingHotel.aspx.cs" Inherits="DMUBMSFrontOffice.BookingHotel" %>
+﻿```<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookingHotel.aspx.cs" Inherits="DMUBMSFrontOffice.BookingHotel" %>
 
 <!--
 Author: W3layouts
