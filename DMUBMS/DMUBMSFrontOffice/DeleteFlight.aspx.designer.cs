@@ -33,31 +33,31 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// Label1 control.
+        /// lblFlightManagement control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblFlightManagement;
 
         /// <summary>
-        /// Label2 control.
+        /// lblManageFlights control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblManageFlights;
 
         /// <summary>
-        /// Label3 control.
+        /// lbldmubms control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lbldmubms;
 
         /// <summary>
         /// Panel2 control.
@@ -69,39 +69,30 @@ namespace DMUBMSFrontOffice
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// Panel3 control.
+        /// btnNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel3;
+        protected global::System.Web.UI.WebControls.Button btnNo;
 
         /// <summary>
-        /// Label4 control.
+        /// btnYes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Button btnYes;
 
         /// <summary>
-        /// ButtonYes control.
+        /// lblFlightNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonYes;
-
-        /// <summary>
-        /// ButtonNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonNo;
+        protected global::System.Web.UI.WebControls.Label lblFlightNo;
     }
 }

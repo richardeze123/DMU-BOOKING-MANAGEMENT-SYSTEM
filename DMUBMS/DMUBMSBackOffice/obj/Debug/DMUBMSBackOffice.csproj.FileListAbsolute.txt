@@ -22,3 +22,9 @@ H:\Downloads\SYSTEM5\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.A
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.CoreCompileInputs.cache
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.dll
 H:\Downloads\SYSTEM5\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.pdb
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\bin\Debug\DMUBMSBackOffice.dll
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\bin\Debug\DMUBMSBackOffice.pdb
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.AssemblyReference.cache
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.csproj.CoreCompileInputs.cache
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.dll
+H:\YEAR 3 COMPUTING\Team Development Project\latest version\DMUBMS\DMUBMSBackOffice\obj\Debug\DMUBMSBackOffice.pdb

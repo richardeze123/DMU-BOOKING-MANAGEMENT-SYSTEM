@@ -76,7 +76,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li class="active"><a href="indexCar.aspx">Car Rentals</a></li>
-                    <li><a href="XXX.html">Flights</a></li>
+                    <li><a href="indexFlight.aspx">Flights</a></li>
                     <li><a href="indexHotel.aspx">Hotel</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>

@@ -4,16 +4,74 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   <title>DMUBMS</title>
+<title>DMUBMS</title>
     <style type="text/css">
-
-        .auto-style5 {
+        .auto-style1 {
+            width: 991px;
+            height: 167px;
             position: absolute;
-            top: 551px;
-            left: 210px;
+            top: 5px;
+            left: 8px;
             z-index: 1;
-            height: 135px;
-            width: 276px;
+        }
+        .auto-style2 {
+            width: 991px;
+            height: 93px;
+            position: absolute;
+            top: 773px;
+            left: 6px;
+            z-index: 1;
+        }
+        .auto-style12 {
+            position: absolute;
+            top: 18px;
+            left: 179px;
+            z-index: 1;
+            width: 758px;
+            height: 42px;
+            margin-top: 0px;
+        }
+        .auto-style13 {
+            position: absolute;
+            top: 122px;
+            left: 422px;
+            z-index: 1;
+            width: 184px;
+            height: 33px;
+        }
+        .auto-style25 {
+            position: absolute;
+            top: 70px;
+            left: 364px;
+            z-index: 1;
+            width: 293px;
+            height: 42px;
+            margin-top: 0px;
+        }
+        .auto-style27 {
+            position: absolute;
+            top: 287px;
+            left: 18px;
+            z-index: 1;
+            width: 87px;
+            height: 38px;
+            right: 1380px;
+        }
+        .auto-style28 {
+            position: absolute;
+            top: 286px;
+            left: 136px;
+            z-index: 1;
+            width: 87px;
+            height: 38px;
+        }
+        .auto-style38 {
+            position: absolute;
+            top: 225px;
+            left: 18px;
+            z-index: 1;
+            width: 470px;
+            height: 21px;
         }
         </style>
 </head>
@@ -21,22 +79,19 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Panel ID="Panel1" runat="server" BackColor="#0099FF" ForeColor="#33CC33" style="z-index: 1; left: 8px; top: 29px; position: absolute; height: 144px; width: 843px">
-            <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 188px; top: 9px; position: absolute; width: 504px;" Text="DMU Booking Management System " Font-Bold="True" Font-Size="XX-Large" ForeColor="White"></asp:Label>
-            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" style="z-index: 1; left: 334px; top: 50px; position: absolute; width: 166px" Text="Car Rental"></asp:Label>
-            <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" style="z-index: 1; left: 305px; top: 87px; position: absolute; width: 242px; margin-bottom: 7px" Text="Manage Flights"></asp:Label>
+        <asp:Panel ID="Panel1" runat="server" BackColor="Blue" CssClass="auto-style1">
+            <asp:Label ID="lblFlightManagement" runat="server" 
+    CssClass="auto-style25" Text="Flight Management" Font-Bold="True" 
+                Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" 
+                Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White"></asp:Label>
+            <asp:Label ID="lblManageFlights" runat="server" CssClass="auto-style13" Font-Bold="True" Font-Names="Berlin Sans FB Demi" Font-Size="X-Large" ForeColor="White" Text="Manage Flights"></asp:Label>
+            <asp:Label ID="lbldmubms" runat="server" CssClass="auto-style12" Font-Bold="True" Font-Italic="False" Font-Names="Berlin Sans FB Demi" Font-Overline="False" Font-Size="XX-Large" Font-Strikeout="False" ForeColor="White" Text="DMU BOOKING MANAGEMENT SYSTEM"></asp:Label>
         </asp:Panel>
-        <asp:Panel ID="Panel2" runat="server" BackColor="#0099FF" style="z-index: 1; left: 10px; top: 178px; position: absolute; height: 520px; width: 183px; margin-top: 0px">
+        <asp:Panel ID="Panel2" runat="server" BackColor="Blue" CssClass="auto-style2">
         </asp:Panel>
-        <asp:Panel ID="Panel3" runat="server" BackColor="#0099FF" style="z-index: 1; left: 10px; top: 704px; position: absolute; height: 136px; width: 867px">
-        </asp:Panel>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Larger" style="z-index: 1; left: 285px; top: 260px; position: absolute; width: 584px" Text="Are you sure you want to Delete this Flight?"></asp:Label>
-        <asp:Button ID="ButtonYes" runat="server" style="z-index: 1; left: 282px; top: 333px; position: absolute; width: 131px;" Text="Yes" />
-        <asp:Button ID="ButtonNo" runat="server" style="z-index: 1; left: 603px; top: 327px; position: absolute; width: 130px; margin-top: 4px" Text="No" />
+        <asp:Button ID="btnNo" runat="server" CssClass="auto-style28" Font-Size="Large" ForeColor="#666666" Text="No" OnClick="btnNo_Click" />
+        <asp:Button ID="btnYes" runat="server" CssClass="auto-style27" Font-Size="Large" ForeColor="#666666" Text="Yes" OnClick="btnYes_Click" />
+        <asp:Label ID="lblFlightNo" runat="server" CssClass="auto-style38" Font-Bold="True" Font-Size="X-Large" ForeColor="Blue" Text="Are you sure you want to delete this Flight?"></asp:Label>
     </form>
 </body>
 </html>

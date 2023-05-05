@@ -69,7 +69,54 @@
   <ItemGroup>
     <Content Include="ActivateAccount.aspx" />
     <Content Include="AnCar.aspx" />
+    <Content Include="AnFlight.aspx" />
     <Content Include="AnHotel.aspx" />
+    <Content Include="bin\DMUBMSClasses.dll" />
+    <Content Include="bin\DMUBMSClasses.pdb" />
+    <Content Include="bin\DMUBMSFrontOffice.dll" />
+    <Content Include="bin\DMUBMSFrontOffice.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.Globalization.Calendars.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.ZipFile.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Net.Http.dll" />
+    <Content Include="bin\roslyn\System.Net.Sockets.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="BookingFlight.aspx" />
     <Content Include="BookingHotel.aspx" />
     <Content Include="car.jpg" />
     <Content Include="ChangePassword.aspx" />
@@ -81,6 +128,7 @@
     <Content Include="css\style2.css" />
     <Content Include="css\style4.css" />
     <Content Include="DefaultCar.aspx" />
+    <Content Include="DefaultFlight.aspx" />
     <Content Include="DefaultHotel.aspx" />
     <Content Include="DeleteCar.aspx" />
     <Content Include="DeleteFlight.aspx" />
@@ -93,6 +141,7 @@
     <Content Include="images\1.png" />
     <Content Include="images\11.png" />
     <Content Include="images\2.jpg" />
+    <Content Include="images\airport.png" />
     <Content Include="images\Audi q2.jpg" />
     <Content Include="images\b2.jpg" />
     <Content Include="images\bmw 4 series frop top.jpg" />
@@ -105,6 +154,7 @@
     <Content Include="images\corporate-3.png" />
     <Content Include="images\corporate.png" />
     <Content Include="images\e-mail.png" />
+    <Content Include="images\flight.jpg" />
     <Content Include="images\Hel lcat.jpg" />
     <Content Include="images\img-sp.png" />
     <Content Include="images\indexHotel.gif" />
@@ -116,6 +166,7 @@
     <Content Include="images\pic2.png" />
     <Content Include="images\pic3.png" />
     <Content Include="images\pic4.png" />
+    <Content Include="images\plane.jfif" />
     <Content Include="images\Range Rover.jpg" />
     <Content Include="images\rent car.jfif" />
     <Content Include="images\search.gif" />
@@ -132,6 +183,7 @@
     <Content Include="images\VW_Polo.jpg" />
     <Content Include="index.html" />
     <Content Include="IndexCar.aspx" />
+    <Content Include="indexFlight.aspx" />
     <Content Include="indexHotel.aspx" />
     <Content Include="indexLogin.aspx" />
     <Content Include="js\easyResponsiveTabs.js" />
@@ -163,12 +215,26 @@
     <Compile Include="AnCar.aspx.designer.cs">
       <DependentUpon>AnCar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AnFlight.aspx.cs">
+      <DependentUpon>AnFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnFlight.aspx.designer.cs">
+      <DependentUpon>AnFlight.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AnHotel.aspx.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AnHotel.aspx.designer.cs">
       <DependentUpon>AnHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookingFlight.aspx.cs">
+      <DependentUpon>BookingFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookingFlight.aspx.designer.cs">
+      <DependentUpon>BookingFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="BookingHotel.aspx.cs">
       <DependentUpon>BookingHotel.aspx</DependentUpon>
@@ -190,6 +256,13 @@
     </Compile>
     <Compile Include="DefaultCar.aspx.designer.cs">
       <DependentUpon>DefaultCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultFlight.aspx.cs">
+      <DependentUpon>DefaultFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultFlight.aspx.designer.cs">
+      <DependentUpon>DefaultFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="DefaultHotel.aspx.cs">
       <DependentUpon>DefaultHotel.aspx</DependentUpon>
@@ -239,6 +312,13 @@
     </Compile>
     <Compile Include="IndexCar.aspx.designer.cs">
       <DependentUpon>IndexCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="indexFlight.aspx.cs">
+      <DependentUpon>indexFlight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexFlight.aspx.designer.cs">
+      <DependentUpon>indexFlight.aspx</DependentUpon>
     </Compile>
     <Compile Include="indexHotel.aspx.cs">
       <DependentUpon>indexHotel.aspx</DependentUpon>
@@ -292,6 +372,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\DMUBMSFrontOffice.dll.config" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="images\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -322,7 +414,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1061</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44336/</IISUrl>
+          <IISUrl>https://localhost:44336/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

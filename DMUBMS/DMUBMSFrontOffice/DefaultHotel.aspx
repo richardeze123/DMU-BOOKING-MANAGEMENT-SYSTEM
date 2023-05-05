@@ -67,7 +67,7 @@
         }
         .auto-style28 {
             position: absolute;
-            top: 432px;
+            top: 433px;
             left: 191px;
             z-index: 1;
             width: 87px;

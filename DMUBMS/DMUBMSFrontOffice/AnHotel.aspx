@@ -54,7 +54,6 @@
             left: 78px;
             z-index: 1;
             width: 87px;
-            height: 38px;
             right: 1320px;
         }
         .auto-style28 {
